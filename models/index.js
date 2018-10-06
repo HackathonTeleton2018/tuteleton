@@ -1,13 +1,15 @@
 /* jshint node: true */
 'use strict';
 
-var fs        = require('fs');
-var path      = require('path');
-var Sequelize = require('sequelize');
-var basename  = path.basename(__filename);
-var env       = process.env.NODE_ENV || 'development';
-var config    = require(__dirname + '/../config/config.json')[env];
-var db        = {};
+const SOURCE = 'tuteleton:models';
+const debug = require('debug')(SOURCE);
+const fs = require('fs');
+const path = require('path');
+const Sequelize = require('sequelize');
+const basename = path.basename(__filename);
+const env = process.env.NODE_ENV || 'development';
+const config = require(__dirname + '/../config/config.json')[env];
+const db = {};
 
 if (config.use_env_variable) {
   var sequelize = new Sequelize(process.env[config.use_env_variable], config);
@@ -22,6 +24,7 @@ fs
   })
   .forEach(file => {
     var model = sequelize['import'](path.join(__dirname, file));
+    debug(`Cargando modelo ${file}`);
     db[model.name] = model;
   });
 
