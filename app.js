@@ -30,7 +30,7 @@ var multipart = bodyParser.urlencoded({
   limit: '50mb'
 });
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   var isMultipart = /^multipart\//i;
   var type = req.get('Content-Type');
   if (isMultipart.test(type)) return multipart(req, res, next);
