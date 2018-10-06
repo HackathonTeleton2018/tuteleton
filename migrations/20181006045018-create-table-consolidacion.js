@@ -14,12 +14,12 @@ module.exports = {
         allowNull: false
       },
       donacionUnitaria: {
-        fieldName: 'donacion_unitaria',
+        field: 'donacion_unitaria',
         type: Sequelize.BOOLEAN,
         allowNull: false
       },
       donacionMultiple: {
-        fieldName: 'donacion_multiple',
+        field: 'donacion_multiple',
         type: Sequelize.INTEGER,
         allowNull: true
       },
