@@ -3,24 +3,32 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('enfermedades', {
+    return queryInterface.createTable('pacientes', {
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true
       },
+      noPaciente: {
+        field: 'no_paciente',
+        type: Sequelize.TEXT,
+        allowNull: false
+      },
       nombre: {
         type: Sequelize.TEXT,
-        allowNull: false,
-        unique: true
+        allowNull: false
       },
-      descripcion: {
+      edad: {
         type: Sequelize.TEXT,
         allowNull: true
       },
-      otros: {
-        type: Sequelize.JSON,
-        allowNull: true
+      enfermedad: {
+        type: Sequelize.TEXT,
+        allowNull: false,
+        references: {
+          model: 'enfermedades',
+          key: 'nombre'
+        }
       },
       createdAt: {
         type: Sequelize.DATE,
@@ -38,6 +46,6 @@ module.exports = {
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('enfermedades');
+    return queryInterface.dropTable('pacientes');
   }
 };

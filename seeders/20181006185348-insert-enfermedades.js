@@ -7,13 +7,16 @@ module.exports = {
         "nombre": "TRASTORNO ESPECIFICO DEL DESARROLLO DE LAS HABILIDADES ESCOLARES"
       },
       {
-        "nombre": "INFARTO CEREBRAL NO ESPECIFICADO"
+        "nombre": "CONSULTA PARA ATENCION Y SUPERVISION DE LA SALUD DE OTROS NI¤OS O LACTANTES SANOS"
       },
       {
-        "nombre": "CONSULTA PARA ATENCION Y SUPERVISION DE LA SALUD DE OTROS NIÑOS O LACTANTES SANOS"
+        "nombre": "OBESIDAD, NO ESPECIFICADA"
       },
       {
         "nombre": "ENCEFALOCELE OCCIPITAL"
+      },
+      {
+        "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR OTRO PROCEDIMIENTO MEDICO EN LA MADRE, NO CLASIFICADO EN OTRA PARTE"
       },
       {
         "nombre": "HEMORRAGIA SUBARACNOIDEA"
@@ -34,6 +37,9 @@ module.exports = {
         "nombre": "RAQUITISMO ACTIVO"
       },
       {
+        "nombre": "DESNUTRICION PROTEICOCALORICA SEVERA, NO ESPECIFICADA"
+      },
+      {
         "nombre": "OTROS TRAUMATISMOS Y LOS NO ESPECIFICADOS DE LA MEDULA ESPINAL TORACICA"
       },
       {
@@ -46,13 +52,7 @@ module.exports = {
         "nombre": "OTRAS ENFERMEDADES DESMIELINIZANTES DEL SISTEMA NERVIOSO CENTRAL"
       },
       {
-        "nombre": "ENCEFALITIS MIELITIS Y ENCEFALOMIELITIS"
-      },
-      {
-        "nombre": "MONONEUROPATIA DEL MIEMBRO INFERIOR SIN OTRA ESPECIFICACION"
-      },
-      {
-        "nombre": "ATROFIA Y DESGASTE MUSCULARES NO CLASIFICADOS EN OTRA PARTE"
+        "nombre": "MALFORMACION CONGENITA DE LA VALVULA TRICUSPIDE, NO ESPECIFICADA"
       },
       {
         "nombre": "OTROS TRASTORNOS DEL DESARROLLO Y CRECIMIENTO OSEO"
@@ -61,10 +61,7 @@ module.exports = {
         "nombre": "HIDROCEFALO EN OTRAS ENFERMEDADES CLASIFICADAS EN OTRA PARTE*"
       },
       {
-        "nombre": "ATROFIA MUSCULAR ESPINAL SIN OTRA ESPECIFICACION"
-      },
-      {
-        "nombre": "DIFICULTAD PARA CAMINAR NO CLASIFICADA EN OTRA PARTE"
+        "nombre": "RETRASO MENTAL, NO ESPECIFICADO, CON DETERIORO DEL COMPORTAMIENTO DE GRADO NO ESPECIFICADO"
       },
       {
         "nombre": "TRAUMATISMO DEL PLEXO BRAQUIAL"
@@ -73,22 +70,16 @@ module.exports = {
         "nombre": "FALTA DE CONSOLIDACION DE FRACTURA [SEUDOARTROSIS]"
       },
       {
-        "nombre": "RETRASO MENTAL NO ESPECIFICADO CON DETERIORO DEL COMPORTAMIENTO NULO O MINIMO"
-      },
-      {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR OTRAS ANORMALIDADES DE LAS MEMBRANAS"
       },
       {
         "nombre": "OTROS TRASTORNOS ESPECIFICADOS DEL SISTEMA NERVIOSO EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE*"
       },
       {
-        "nombre": "LUXACION CONGENITA DE LA CADERA BILATERAL"
+        "nombre": "TUMOR BENIGNO DEL HUESO Y DEL CARTILAGO ARTICULAR, SITIO NO ESPECIFICADO"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DEL SISTEMA OSTEOMUSCULAR NO ESPECIFICADA"
-      },
-      {
-        "nombre": "DESARREGLO ARTICULAR NO ESPECIFICADO"
+        "nombre": "HEMIPLEJIA, NO ESPECIFICADA"
       },
       {
         "nombre": "DEFORMIDADES CONGENITAS DE LA CADERA"
@@ -106,9 +97,6 @@ module.exports = {
         "nombre": "SINDACTILIA"
       },
       {
-        "nombre": "HIDROCEFALO CONGENITO NO ESPECIFICADO"
-      },
-      {
         "nombre": "SINDROME DE KLIPPEL-FEIL"
       },
       {
@@ -118,22 +106,34 @@ module.exports = {
         "nombre": "HEMORRAGIA INTRACRANEAL NO TRAUMATICA DEL FETO Y DEL RECIEN NACIDO"
       },
       {
-        "nombre": "ANOMALIA CROMOSOMICA NO ESPECIFICADA"
+        "nombre": "TRAUMATISMOS MULTIPLES, NO ESPECIFICADOS"
+      },
+      {
+        "nombre": "CONVULSIONES, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "OTROS TRASTORNOS DEL TONO MUSCULAR EN EL RECIEN NACIDO"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DE LA VALVULA TRICUSPIDE NO ESPECIFICADA"
+        "nombre": "RETRASO MENTAL, NO ESPECIFICADO, CON DETERIORO DEL COMPORTAMIENTO NULO O MINIMO"
+      },
+      {
+        "nombre": "HIPOACUSIA, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "SEPSIS BACTERIANA DEL RECIEN NACIDO, NO ESPECIFICADA"
       },
       {
         "nombre": "DISTIMIA"
       },
       {
-        "nombre": "ICTERICIA NEONATAL NO ESPECIFICADA"
+        "nombre": "TUMOR MALIGNO DE LOS NERVIOS PERIFERICOS DEL MIEMBRO SUPERIOR, INCLUIDO EL HOMBRO"
       },
       {
         "nombre": "OTRAS POLINEUROPATIAS INFLAMATORIAS"
+      },
+      {
+        "nombre": "TRAUMATISMO SUPERFICIAL DE LA CABEZA, PARTE NO ESPECIFICADA"
       },
       {
         "nombre": "OTRAS AFECCIONES ESPECIFICADAS ORIGINADAS EN EL PERIODO PERINATAL"
@@ -142,19 +142,16 @@ module.exports = {
         "nombre": "DISARTRIA Y ANARTRIA"
       },
       {
-        "nombre": "DEFORMIDAD CONGENITA DE LOS PIES NO ESPECIFICADA"
-      },
-      {
         "nombre": "MALFORMACION CONGENITA NO ESPECIFICADA DE LOS HUESOS DEL CRANEO Y DE LA CARA"
       },
       {
-        "nombre": "ESPINA BIFIDA NO ESPECIFICADA"
+        "nombre": "FISURA DEL PALADAR, LINEA MEDIA"
       },
       {
-        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL INTESTINO ESPECIFICADAS"
+        "nombre": "INFARTO CEREBRAL, NO ESPECIFICADO"
       },
       {
-        "nombre": "AMPUTACION TRAUMATICA DE MIEMBRO INFERIOR NIVEL NO ESPECIFICADO"
+        "nombre": "TUMOR MALIGNO DE LA MEDULA ESPINAL, DE LOS NERVIOS CRANEALES Y DE OTRAS PARTES DEL SISTEMA NERVIOSO CENTRAL"
       },
       {
         "nombre": "MENISCO QUISTICO"
@@ -163,13 +160,13 @@ module.exports = {
         "nombre": "TENDINITIS ROTULIANA"
       },
       {
-        "nombre": "OSTEOMIELITIS NO ESPECIFICADA"
+        "nombre": "QUEMADURA DE LA MU¥ECA Y DE LA MANO, DE TERCER GRADO"
       },
       {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR OTRAS COMPLICACIONES DEL TRABAJO DE PARTO Y DEL PARTO"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DE LA PIEL NO ESPECIFICADA"
+        "nombre": "SINDROME DE TURNER, NO ESPECIFICADO"
       },
       {
         "nombre": "SECUELAS DE ENCEFALITIS VIRAL"
@@ -181,28 +178,22 @@ module.exports = {
         "nombre": "SINDROMES EPILEPTICOS ESPECIALES"
       },
       {
-        "nombre": "ENCEFALITIS VIRAL NO ESPECIFICADA"
-      },
-      {
         "nombre": "TRAUMATISMOS MULTIPLES DE LA CADERA Y DEL MUSLO"
       },
       {
-        "nombre": "TRAUMATISMO DE NERVIOS(S) SIMPATICO(S) LUMBAR(ES)SACRO(S) Y PELVICO(S)"
+        "nombre": "LESION DE SITIOS CONTIGUOS MAL DEFINIDOS"
       },
       {
-        "nombre": "LESION DE SITIOS CONTIGUOS MAL DEFINIDOS"
+        "nombre": "RETRASO MENTAL GRAVE, CON DETERIORO DEL COMPORTAMIENTO SIGNIFICATIVO, QUE REQUIERE ATENCION O TRATAMIENTO"
+      },
+      {
+        "nombre": "QUEMADURA DE SEGUNDO GRADO, REGION DEL CUERPO NO ESPECIFICADA"
       },
       {
         "nombre": "TUMOR MALIGNO DEL ENCEFALO"
       },
       {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR COMPLICACIONES MATERNAS DEL EMBARAZO"
-      },
-      {
-        "nombre": "REUMATISMO NO ESPECIFICADO"
-      },
-      {
-        "nombre": "MIOPATIA INFLAMATORIA NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "HERIDA DE OTRAS PARTES DEL PIE"
@@ -232,7 +223,10 @@ module.exports = {
         "nombre": "MONOPLEJIA DE MIEMBRO SUPERIOR"
       },
       {
-        "nombre": "SECUELAS DE nombre CEREBROVASCULAR"
+        "nombre": "TRASTORNO DE LA CONTINUIDAD DEL HUESO, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "SECUELAS DE ENFERMEDAD CEREBROVASCULAR"
       },
       {
         "nombre": "EXAMEN DE PESQUISA ESPECIAL PARA OTRAS ENFERMEDADES Y TRASTORNOS ESPECIFICADOS"
@@ -242,6 +236,9 @@ module.exports = {
       },
       {
         "nombre": "FACTORES PSICOLOGICOS Y DEL COMPORTAMIENTO ASOCIADOS CON TRASTORNOS O ENFERMEDADES CLASIFICADOS EN OTRA PARTE"
+      },
+      {
+        "nombre": "VEJIGA NEUROPATICA REFLEJA, NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "AUSENCIA CONGENITA DE LA PIERNA Y DEL PIE"
@@ -256,31 +253,13 @@ module.exports = {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR OTRAS COMPLICACIONES DEL CORDON UMBILICAL Y LAS NO ESPECIFICADAS"
       },
       {
-        "nombre": "TUMOR MALIGNO DEL OJO PARTE NO ESPECIFICADA"
+        "nombre": "HEMORRAGIA INTRAVENTRICULAR (NO TRAUMATICA) GRADO 1, DEL FETO Y DEL RECIEN NACIDO"
       },
       {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR PARTO POR CESAREA"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DEL TORAX OSEO NO ESPECIFICADA"
-      },
-      {
-        "nombre": "RETRASO MENTAL NO ESPECIFICADO"
-      },
-      {
-        "nombre": "MIOPATIA MITOCONDRICA NO CLASIFICADA EN OTRA PARTE"
-      },
-      {
-        "nombre": "TRISOMIA 18 MOSAICO (POR FALTA DE DISYUNCION MITOTICA)"
-      },
-      {
-        "nombre": "OSTEONECROSIS NO ESPECIFICADA"
-      },
-      {
         "nombre": "ESPINA BIFIDA SACRA CON HIDROCEFALO"
-      },
-      {
-        "nombre": "AGENESIA RENAL UNILATERAL"
       },
       {
         "nombre": "OSTEOCONDROSIS JUVENIL DE LA CABEZA DEL FEMUR [LEGG-CALVE-PERTHES]"
@@ -289,10 +268,22 @@ module.exports = {
         "nombre": "LEUCOENCEFALOPATIA MULTIFOCAL PROGRESIVA"
       },
       {
-        "nombre": "OTRAS POLINEUROPATIAS ESPECIFICADAS"
+        "nombre": "NEVO NO NEOPLASICO, CONGENITO"
       },
       {
-        "nombre": "TRISOMIA 18 POR TRANSLOCACION"
+        "nombre": "TRASTORNO NO ESPECIFICADO DE LOS TEJIDOS BLANDOS RELACIONADO CON EL USO, EL USO EXCESIVO Y LA PRESION"
+      },
+      {
+        "nombre": "FOCOMELIA, MIEMBRO(S) NO ESPECIFICADO(S)"
+      },
+      {
+        "nombre": "LUXACION CONGENITA DE LA CADERA, BILATERAL"
+      },
+      {
+        "nombre": "TUMOR MALIGNO DE LOS HUESOS Y DE LOS CARTILAGOS ARTICULARES DE LOS MIEMBROS, SIN OTRA ESPECIFICACION"
+      },
+      {
+        "nombre": "OTRAS POLINEUROPATIAS ESPECIFICADAS"
       },
       {
         "nombre": "EMBARAZO TRIPLE"
@@ -301,10 +292,13 @@ module.exports = {
         "nombre": "DOLOR EN ARTICULACION"
       },
       {
-        "nombre": "HIDROCEFALO EN nombre NEPLASICA*"
+        "nombre": "HIDROCEFALO EN ENFERMEDAD NEPLASICA*"
       },
       {
         "nombre": "REFLUJO VESICO-URETERO-RENAL CONGENITO"
+      },
+      {
+        "nombre": "TRASTORNO HIPERCINETICO, NO ESPECIFICADO"
       },
       {
         "nombre": "HIPOSPADIAS"
@@ -316,16 +310,16 @@ module.exports = {
         "nombre": "HIPOXIA INTRAUTERINA NOTADA POR PRIMERA VEZ ANTES DEL INICIO DEL TRABAJO DE PARTO"
       },
       {
+        "nombre": "HISTORIA PERSONAL DE FACTORES DE RIESGO, NO CLASIFICADOS EN OTRA PARTE"
+      },
+      {
         "nombre": "CONVULSIONES DEL RECIEN NACIDO"
       },
       {
         "nombre": "TUMOR MALIGNO DEL VENTRICULO CEREBRAL"
       },
       {
-        "nombre": "HEMORRAGIA INTRAVENTRICULAR (NO TRAUMATICA) GRADO 2 DEL FETO Y DEL RECIEN NACIDO"
-      },
-      {
-        "nombre": "ANOMALIA DE LOS CROMOSOMAS SEXUALES CON FENOTIPO FEMENINO SIN OTRA ESPECIFICACION"
+        "nombre": "ENCEFALITIS, MIELITIS Y ENCEFALOMIELITIS EN OTRAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS CLASIF EN OTRA PARTE*"
       },
       {
         "nombre": "HIPERTENSION PULMONAR PRIMARIA"
@@ -337,31 +331,22 @@ module.exports = {
         "nombre": "OTRAS OSTEOCONDRODISPLASIAS CON DEFECTOS DEL CRECIMIENTO DE LOS HUESOS LARGOS Y DE LA COLUMNA VERTEBRAL"
       },
       {
-        "nombre": "ARTRITIS PIOGENA NO ESPECIFICADA"
-      },
-      {
         "nombre": "ATAXIA CEREBELOSA DE INICIACION TEMPRANA"
-      },
-      {
-        "nombre": "OTRAS ANOMALIAS DE LOS CROMOSOMAS ESPECIFICADAS"
       },
       {
         "nombre": "OTRAS FORMAS ESPECIFICADAS DE TEMBLOR"
       },
       {
-        "nombre": "TRAUMATISMOS MULTIPLES NO ESPECIFICADOS"
-      },
-      {
-        "nombre": "HISTORIA PERSONAL DE FACTORES DE RIESGO NO CLASIFICADOS EN OTRA PARTE"
-      },
-      {
-        "nombre": "NEUROPATIA HEREDITARIA E IDIOPATICA SIN OTRA ESPECIFICACION"
-      },
-      {
         "nombre": "SECUELAS DE QUEMADURA Y CORROSION CLASIFICABLES SOLO DE ACUERDO CON LA EXTENSION DE LA SUPERFICIE DEL CUERPO AFECTADA"
       },
       {
+        "nombre": "SINDROME PARALITICO, NO ESPECIFICADO"
+      },
+      {
         "nombre": "PROBLEMAS RELACIONADOS CON MOVILIDAD REDUCIDA"
+      },
+      {
+        "nombre": "DEFORMIDAD EN VALGO, NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "ESPINA BIFIDA TORACICA SIN HIDROCEFALO"
@@ -373,7 +358,16 @@ module.exports = {
         "nombre": "SECUELAS DE FRACTURA DEL BRAZO"
       },
       {
-        "nombre": "MIELITIS TRANSVERSA AGUDA EN nombre DESMIELINIZANTE DEL SISTEMA NERVIOSO CENTRAL"
+        "nombre": "SINDROME DE KLINEFELTER, CARIOTIPO 47,XXY"
+      },
+      {
+        "nombre": "MIELITIS TRANSVERSA AGUDA EN ENFERMEDAD DESMIELINIZANTE DEL SISTEMA NERVIOSO CENTRAL"
+      },
+      {
+        "nombre": "MALFORMACIONES CONGENITAS DEL OJO, NO ESPECIFICADAS"
+      },
+      {
+        "nombre": "OTRAS ANOMALIAS DE LOS CROMOSOMAS, ESPECIFICADAS"
       },
       {
         "nombre": "SITUS INVERSUS"
@@ -397,19 +391,16 @@ module.exports = {
         "nombre": "LUPUS ERITEMATOSO SISTEMICO"
       },
       {
-        "nombre": "RETRASO MENTAL MODERADO  CON DETERIORO DEL COMPORTAMIENTO NULO O MINIMO"
-      },
-      {
         "nombre": "HISTORIA PERSONAL DE CIERTAS AFECCIONES ORIGINADAS EN EL PERIODO PERINATAL"
       },
       {
         "nombre": "FUSION DE LOS DEDOS DE LA MANO"
       },
       {
-        "nombre": "TRASTORNO PRIMARIO DEL MUSCULO TIPO NO ESPECIFICADO"
+        "nombre": "DISPARO DE OTRAS ARMAS DE FUEGO, Y LAS NO ESPECIFICADAS"
       },
       {
-        "nombre": "LABIO LEPORINO BILATERAL"
+        "nombre": "TRISOMIA 21, POR FALTA DE DISYUNCION MEIOTICA"
       },
       {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR ENFERMEDADES INFECCIOSAS Y PARASITARIAS DE LA MADRE"
@@ -418,31 +409,19 @@ module.exports = {
         "nombre": "SINDROME DE EDWARDS Y SINDROME DE PATAU"
       },
       {
-        "nombre": "RETRASO MENTAL LEVE CON DETERIORO DEL COMPORTAMIENTO SIGNIFICATIVO QUE REQUIERE ATENCION O TRATAMIENTO"
-      },
-      {
-        "nombre": "LESION DEL HOMBRO NO ESPECIFICADA"
-      },
-      {
         "nombre": "OTROS TRASTORNOS MIXTOS DE LA CONDUCTA Y DE LAS EMOCIONES"
       },
       {
-        "nombre": "HEMORRAGIA INTRAVENTRICULAR (NO TRAUMATICA) GRADO 3 DEL FETO Y DEL RECIEN NACIDO"
+        "nombre": "OTRAS MALFORMACIONES CONGENITAS, NO CLASIFICADAS EN OTRA PARTE"
+      },
+      {
+        "nombre": "LABIO LEPORINO, UNILATERAL"
       },
       {
         "nombre": "OTROS TRASTORNOS ESPECIFICADOS DEL METABOLISMO DE LOS AMINOACIDOS"
       },
       {
-        "nombre": "SINDROMES DEL COMPORTAMIENTO ASOCIADOS CON ALTERACIONES FISIOLOGICAS Y FACTORES FISICOS NO ESPECIFICADOS"
-      },
-      {
-        "nombre": "ATROFIA MUSCULAR ESPINAL INFANTIL TIPO I (WERDNIG-HOFFMAN)"
-      },
-      {
-        "nombre": "LINFANGIOMA DE CUALQUIER SITIO"
-      },
-      {
-        "nombre": "LESIONES BIOMECANICAS NO CLASIFICADAS EN OTRA PARTE"
+        "nombre": "OSTEOMIELITIS, NO ESPECIFICADA"
       },
       {
         "nombre": "DISMINUCION INDETERMINADA DE LA AGUDEZA VISUAL EN AMBOS OJOS"
@@ -454,19 +433,19 @@ module.exports = {
         "nombre": "APNEA DEL SUE¥O"
       },
       {
-        "nombre": "SINDACTILIA NO ESPECIFICADA"
+        "nombre": "DISFUNCION NEUROMUSCULAR DE LA VEJIGA, NO ESPECIFICADA"
       },
       {
         "nombre": "EPIDERMOLISIS BULLOSA"
       },
       {
-        "nombre": "OTROS SINDROMES DE MALFORMACIONES CONGENITAS ESPECIFICADOS NO CLASIFICADOS EN OTRA PARTE"
+        "nombre": "DEFORMIDAD ADQUIRIDA DEL SISTEMA OSTEOMUSCULAR, NO ESPECIFICADA"
       },
       {
         "nombre": "NISTAGMO Y OTROS MOVIMIENTOS OCULARES IRREGULARES"
       },
       {
-        "nombre": "MONOSOMIAS Y SUPRESIONES DE LOS AUTOSOMAS NO CLASIFICADAS EN OTRA PARTE"
+        "nombre": "TESTICULO NO DESCENDIDO, BILATERAL"
       },
       {
         "nombre": "OTROS TRASTORNOS DE LA DENSIDAD Y DE LA ESTRUCTURA OSEAS"
@@ -476,9 +455,6 @@ module.exports = {
       },
       {
         "nombre": "HIPERTROFIA DEL HUESO"
-      },
-      {
-        "nombre": "HIPOGLICEMIA NO ESPECIFICADA"
       },
       {
         "nombre": "TRASTORNOS DEL SISTEMA NERVIOSO AUTONOMO"
@@ -493,19 +469,10 @@ module.exports = {
         "nombre": "DIPLEJIA DE LOS MIEMBROS SUPERIORES"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DE LAS CAMARAS CARDIACAS Y SUS CONEXIONES NO ESPECIFICADA"
-      },
-      {
         "nombre": "ATAXIA CONGENITA NO PROGRESIVA"
       },
       {
         "nombre": "OTRAS ATROFIAS MUSCULARES ESPINALES HEREDITARIAS"
-      },
-      {
-        "nombre": "HIPOXIA INTRAUTERINA NO ESPECIFICADA"
-      },
-      {
-        "nombre": "DESNUTRICION PROTEICOCALORICA SEVERA NO ESPECIFICADA"
       },
       {
         "nombre": "INFECCION CITOMEGALOVIRICA CONGENITA"
@@ -514,7 +481,7 @@ module.exports = {
         "nombre": "NEUROFIBROMATOSIS (NO MALIGNA)"
       },
       {
-        "nombre": "HEMORRAGIA INTRAVENTRICULAR (NO TRAUMATICA) GRADO 1 DEL FETO Y DEL RECIEN NACIDO"
+        "nombre": "LUXACION CONGENITA DE LA CADERA, NO ESPECIFICADA"
       },
       {
         "nombre": "CROMOSOMA REEMPLAZADO POR ANILLO O DICENTRICO"
@@ -541,16 +508,16 @@ module.exports = {
         "nombre": "TUMOR BENIGNO DEL ENCEFALO Y DE OTRAS PARTES DEL SISTEMA NERVIOSO CENTRAL"
       },
       {
-        "nombre": "ARTRITIS REUMATOIDE NO ESPECIFICADA"
-      },
-      {
         "nombre": "ARTRITIS REUMATOIDE JUVENIL"
       },
       {
-        "nombre": "SINDROME DE KLINEFELTER CARIOTIPO 47XXY"
+        "nombre": "ACIDOSIS"
       },
       {
-        "nombre": "ACIDOSIS"
+        "nombre": "LUXACION CONGENITA DE LA CADERA, UNILATERAL"
+      },
+      {
+        "nombre": "HIPOXIA INTRAUTERINA, NO ESPECIFICADA"
       },
       {
         "nombre": "RI¥ON SUPERNUMERARIO"
@@ -559,13 +526,7 @@ module.exports = {
         "nombre": "SECUELAS DE ENFERMEDADES INFLAMATORIAS DEL SISTEMA NERVIOSO CENTRAL"
       },
       {
-        "nombre": "TUMOR MALIGNO DE LOS NERVIOS PERIFERICOS DEL MIEMBRO INFERIOR INCLUIDA LA CADERA"
-      },
-      {
         "nombre": "OTRAS ENFERMEDADES DEGENERATIVAS DE LOS NUCLEOS DE LA BASE"
-      },
-      {
-        "nombre": "INSUFICIENCIA RENAL AGUDA NO ESPECIFICADA"
       },
       {
         "nombre": "TRAUMATISMO DEL NERVIO CIATICO A NIVEL DE LA CADERA Y DEL MUSLO"
@@ -580,7 +541,16 @@ module.exports = {
         "nombre": "PERTURBACION DE LA ACTIVIDAD Y DE LA ATENCION"
       },
       {
+        "nombre": "OTROS TRASTORNOS ORGANICOS DE LA PERSONALIDAD Y DEL COMPORTAMIENTO DEBIDOS A ENF., LESION Y DISF. CEREBRALES"
+      },
+      {
+        "nombre": "TRISOMIA 21, POR TRANSLOCACION"
+      },
+      {
         "nombre": "PARAPLEJIA Y CUADRIPLEJIA"
+      },
+      {
+        "nombre": "ENFERMEDAD CARDIACA, NO ESPECIFICADA"
       },
       {
         "nombre": "DEFORMIDAD CONGENITA DE LA MANO"
@@ -589,25 +559,25 @@ module.exports = {
         "nombre": "AUSENCIA CONGENITA DEL MUSLO Y DE LA PIERNA CON PRESENCIA DEL PIE"
       },
       {
-        "nombre": "PARAPLEJIA NO ESPECIFICADA"
-      },
-      {
         "nombre": "OTRAS DEFORMIDADES ADQUIRIDAS ESPECIFICADAS DEL SISTEMA OSTEOMUSCULAR"
-      },
-      {
-        "nombre": "nombre CEREBROVASCULAR NO ESPECIFICADA"
       },
       {
         "nombre": "OTRAS GONARTROSIS PRIMARIAS"
       },
       {
+        "nombre": "FISURA DEL PALADAR DURO CON LABIO LEPORINO, BILATERAL"
+      },
+      {
+        "nombre": "MALFORMACION CONGENITA DE LA PIEL, NO ESPECIFICADA"
+      },
+      {
         "nombre": "DISTONIA"
       },
       {
-        "nombre": "TUMOR MALIGNO DE LOS HUESOS LARGOS DEL MIEMBRO INFERIOR"
+        "nombre": "DEFORMIDAD CONGENITA DE LA CADERA, NO ESPECIFICADA"
       },
       {
-        "nombre": "RI¥ON LOBULADO FUSIONADO Y EN HERRADURA"
+        "nombre": "TUMOR MALIGNO DE LOS HUESOS LARGOS DEL MIEMBRO INFERIOR"
       },
       {
         "nombre": "ESTRABISMO PARALITICO"
@@ -619,7 +589,7 @@ module.exports = {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL SISTEMA OSTEOMUSCULAR"
       },
       {
-        "nombre": "AMPUTACION TRAUMATICA DE MIEMBROS SUPERIOR(ES) E INFERIOR(ES) CUALQUIER COMBINACION [CUALQUIER NIVEL]"
+        "nombre": "TRASTORNO DE LOS DISCOS INTERVERTEBRALES, NO ESPECIFICADO"
       },
       {
         "nombre": "AUSENCIA CONGENITA COMPLETA DEL (DE LOS) MIEMBRO(S) SUPERIOR(ES)"
@@ -628,7 +598,13 @@ module.exports = {
         "nombre": "SECUELAS DE FRACTURA DEL FEMUR"
       },
       {
+        "nombre": "HIPOTIROIDISMO, NO ESPECIFICADO"
+      },
+      {
         "nombre": "PIE PLANO [PES PLANUS] (ADQUIRIDO)"
+      },
+      {
+        "nombre": "TRISOMIA DE UN CROMOSOMA COMPLETO, MOSAICO (POR FALTA DE DISYUNCION MITOTICA)"
       },
       {
         "nombre": "OTROS TIPOS DE HIDROCEFALO"
@@ -640,7 +616,16 @@ module.exports = {
         "nombre": "TOXOPLASMOSIS CONGENITA"
       },
       {
+        "nombre": "TRASTORNO DEL DESARROLLO DE LAS HABILIDADES ESCOLARES, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "ESPINA BIFIDA, NO ESPECIFICADA"
+      },
+      {
         "nombre": "OTROS TRASTORNOS ESPECIFICADOS DEL ENCEFALO"
+      },
+      {
+        "nombre": "QUEMADURA Y CORROSION, REGION DEL CUERPO NO ESPECIFICADA"
       },
       {
         "nombre": "ESCLEROSIS DIFUSA"
@@ -655,13 +640,13 @@ module.exports = {
         "nombre": "CARDIOMIOPATIA DILATADA"
       },
       {
+        "nombre": "SECUELAS DE LUXACION, TORCEDURA Y ESGUINCE DE MIEMBRO INFERIOR"
+      },
+      {
         "nombre": "AUSENCIA CONGENITA DEL BRAZO Y DEL ANTEBRAZO CON PRESENCIA DE LA MANO"
       },
       {
         "nombre": "PARTO CON FORCEPS MEDIO CON ROTACION"
-      },
-      {
-        "nombre": "SEPSIS BACTERIANA DEL RECIEN NACIDO NO ESPECIFICADA"
       },
       {
         "nombre": "EN ESTUDIO"
@@ -670,10 +655,13 @@ module.exports = {
         "nombre": "ICTERICIA NEONATAL DEBIDA A OTRAS HEMOLISIS EXCESIVAS"
       },
       {
-        "nombre": "TRASTORNO QUE AFECTA AL MECANISMO DE LA INMUNIDAD NO ESPECIFICADO"
+        "nombre": "MONOSOMIAS Y SUPRESIONES DE LOS AUTOSOMAS, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR PLACENTA PREVIA"
+      },
+      {
+        "nombre": "ENZIMAS, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "ESCOLIOSIS CONGENITA DEBIDA A MALFORMACION CONGENITA OSEA"
@@ -682,10 +670,10 @@ module.exports = {
         "nombre": "ESPINA BIFIDA OCULTA"
       },
       {
-        "nombre": "PARALISIS DE BELL"
+        "nombre": "SUBLUXACION CONGENITA DE LA CADERA, NO ESPECIFICADA"
       },
       {
-        "nombre": "HEMORRAGIA INTRACEREBRAL EN HEMISFERIO SUBCORTICAL"
+        "nombre": "PARALISIS DE BELL"
       },
       {
         "nombre": "PARO CARDIACO"
@@ -697,10 +685,10 @@ module.exports = {
         "nombre": "DISOSTOSIS MAXILOFACIAL"
       },
       {
-        "nombre": "DIFICULTAD RESPIRATORIA DEL RECIEN NACIDO NO ESPECIFICADA"
+        "nombre": "MALFORMACIONES CONGENITAS DE LOS TABIQUES CARDIACOS"
       },
       {
-        "nombre": "MALFORMACIONES CONGENITAS DE LOS TABIQUES CARDIACOS"
+        "nombre": "ICTERICIA NEONATAL, NO ESPECIFICADA"
       },
       {
         "nombre": "MALFORMACION ARTERIOVENOSA DE LOS VASOS CEREBRALES"
@@ -709,7 +697,7 @@ module.exports = {
         "nombre": "OBESIDAD DEBIDA A EXCESO DE CALORIAS"
       },
       {
-        "nombre": "INCONTINENCIA URINARIA NO ESPECIFICADA"
+        "nombre": "TUMOR MALIGNO DEL HUESO Y DEL CARTILAGO ARTICULAR, NO ESPECIFICADO"
       },
       {
         "nombre": "TRASTORNOS DEL METABOLISMO DEL CICLO DE LA UREA"
@@ -718,13 +706,13 @@ module.exports = {
         "nombre": "OSTEOCONDROSIS JUVENIL DE LA PELVIS"
       },
       {
+        "nombre": "MALFORMACION CONGENITA DE LOS ORGANOS GENITALES MASCULINOS, NO ESPECIFICADA"
+      },
+      {
         "nombre": "AMPUTACION TRAUMATICA DE OTRO DEDO UNICO (COMPLETA) (PARCIAL)"
       },
       {
         "nombre": "HIPOACUSIA CONDUCTIVA BILATERAL"
-      },
-      {
-        "nombre": "OTRAS ANOMALIAS DE LOS CROMOSOMAS SEXUALES CON FENOTIPO FEMENINO NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "SINDROME DE LESCH-NYHAN"
@@ -733,13 +721,16 @@ module.exports = {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL ENCEFALO"
       },
       {
+        "nombre": "RETRASO MENTAL LEVE, CON DETERIORO DEL COMPORTAMIENTO SIGNIFICATIVO, QUE REQUIERE ATENCION O TRATAMIENTO"
+      },
+      {
         "nombre": "TALIPES EQUINOVARUS"
       },
       {
         "nombre": "MUCOPOLISACARIDOSIS TIPO II"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DEL SISTEMA NERVIOSO NO ESPECIFICADA"
+        "nombre": "OTRAS ENFERMEDADES ESPECIFICADAS Y AFECCIONES QUE COMPLICAN EL EMBARAZO, EL PARTO Y EL PUERPERIO"
       },
       {
         "nombre": "TRASTORNO HIPERACTIVO ASOCIADO CON RETRASO MENTAL Y MOVIMIENTOS ESTEREOTIPADOS"
@@ -748,22 +739,16 @@ module.exports = {
         "nombre": "TRASTORNO ESPECIFICO DEL DESARROLLO DE LA FUNCION MOTRIZ"
       },
       {
-        "nombre": "ALTERACION VISUAL NO ESPECIFICADA"
+        "nombre": "FALTA DEL DESARROLLO FISIOLOGICO NORMAL ESPERADO"
       },
       {
-        "nombre": "FALTA DEL DESARROLLO FISIOLOGICO NORMAL ESPERADO"
+        "nombre": "TRASTORNO DEL COMPORTAMIENTO SOCIAL EN LA NI¥EZ, NO ESPECIFICADO"
       },
       {
         "nombre": "DESLIZAMIENTO DE LA EPIFISIS FEMORAL SUPERIOR (NO TRAUMATICO)"
       },
       {
         "nombre": "FRACTURA DE LA DIAFISIS DEL CUBITO"
-      },
-      {
-        "nombre": "SECUELAS DE LUXACION TORCEDURA Y ESGUINCE DE MIEMBRO INFERIOR"
-      },
-      {
-        "nombre": "RIGIDEZ ARTICULAR NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "MALFORMACIONES CONGENITAS DE LAS CAMARAS CARDIACAS Y SUS CONEXIONES"
@@ -773,6 +758,9 @@ module.exports = {
       },
       {
         "nombre": "RETARDO DEL DESARROLLO DEBIDO A DESNUTRICION PROTEICOCALORICA"
+      },
+      {
+        "nombre": "TRAUMATISMO DE NERVIOS, RAIZ DE NERVIO ESPINAL Y PLEXOS DEL TRONCO NO ESPECIFICADOS"
       },
       {
         "nombre": "OTRAS DEFORMIDADES OSTEOMUSCULARES CONGENITAS"
@@ -787,13 +775,19 @@ module.exports = {
         "nombre": "PARTO POR CESAREA DE EMERGENCIA"
       },
       {
+        "nombre": "ENFERMEDAD POR VIRUS CITOMEGALICO, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "ATROFIA Y DESGASTE MUSCULARES, NO CLASIFICADOS EN OTRA PARTE"
+      },
+      {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS DE LA MEDULA ESPINAL"
       },
       {
-        "nombre": "CUADRIPLEJIA ESPASTICA"
+        "nombre": "NEUROPATIA HEREDITARIA E IDIOPATICA, SIN OTRA ESPECIFICACION"
       },
       {
-        "nombre": "TUMOR BENIGNO DEL SISTEMA NERVIOSO CENTRAL SITIO NO ESPECIFICADO"
+        "nombre": "CUADRIPLEJIA ESPASTICA"
       },
       {
         "nombre": "OTRAS ENFERMEDADES ESPECIFICADAS DE LA MEDULA ESPINAL"
@@ -808,34 +802,37 @@ module.exports = {
         "nombre": "AMPUTACIONES TRAUMATICAS QUE AFECTAN MULTIPLES REGIONES DEL CUERPO"
       },
       {
-        "nombre": "OSTEOCONDROSIS JUVENIL DE LA CADERA Y DE LA PELVIS SIN OTRA ESPECIFICACION"
-      },
-      {
         "nombre": "ALTERACIONES DE LA SECRECION SALIVAL"
       },
       {
         "nombre": "AMPUTACION TRAUMATICA DEL ANTEBRAZO"
       },
       {
-        "nombre": "nombre DE LYME"
-      },
-      {
-        "nombre": "SINOVITIS Y TENOSINOVITIS NO ESPECIFICADA"
-      },
-      {
-        "nombre": "SINDROME DE TURNER NO ESPECIFICADO"
+        "nombre": "ENFERMEDAD DE LYME"
       },
       {
         "nombre": "SINDROME DE RETT"
       },
       {
+        "nombre": "OSTEOCONDRODISPLASIA, NO ESPECIFICADA"
+      },
+      {
         "nombre": "OTRAS LESIONES BIOMECANICAS"
+      },
+      {
+        "nombre": "ATAXIA, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "TRASTORNOS OSTEOMUSCULARES CONSECUTIVOS A PROCEDIMIENTOS, NO CLASIFICADOS EN OTRA PARTE"
       },
       {
         "nombre": "AUSENCIA ADQUIRIDA DE PIERNA POR ARRIBA DE LA RODILLA"
       },
       {
         "nombre": "POLIMIOSITIS"
+      },
+      {
+        "nombre": "SINDROMES DEL COMPORTAMIENTO ASOCIADOS CON ALTERACIONES FISIOLOGICAS Y FACTORES FISICOS, NO ESPECIFICADOS"
       },
       {
         "nombre": "ESCOLIOSIS"
@@ -847,6 +844,9 @@ module.exports = {
         "nombre": "ESPINA BIFIDA CERVICAL CON HIDROCEFALO"
       },
       {
+        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL (DE LOS) MIEMBRO(S) INFERIOR(ES), INCLUIDA LA CINTURA PELVIANA"
+      },
+      {
         "nombre": "NEUROPATIA PROGRESIVA IDIOPATICA"
       },
       {
@@ -856,10 +856,10 @@ module.exports = {
         "nombre": "OTROS TIPOS DE PARALISIS CEREBRAL INFANTIL"
       },
       {
-        "nombre": "DEFORMIDAD EN VALGO NO CLASIFICADA EN OTRA PARTE"
+        "nombre": "INTESTINO NEUROGENICO, NO CLASIFICADO EN OTRA PARTE"
       },
       {
-        "nombre": "TRAUMATISMO DE NERVIOS RAIZ DE NERVIO ESPINAL Y PLEXOS DEL TRONCO NO ESPECIFICADOS"
+        "nombre": "SINDROME DE KLINEFELTER, NO ESPECIFICADO"
       },
       {
         "nombre": "DISTROFIA MUSCULAR"
@@ -886,22 +886,10 @@ module.exports = {
         "nombre": "COMPRESION DEL ENCEFALO"
       },
       {
-        "nombre": "FISURA DEL PALADAR BILATERAL SIN OTRA ESPECIFICACION"
-      },
-      {
-        "nombre": "MALFORMACIONES CONGENITAS DEL OJO NO ESPECIFICADAS"
-      },
-      {
-        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL (DE LOS) MIEMBRO(S) SUPERIOR(ES) INCLUIDA LA CINTURA ESCAPULAR"
-      },
-      {
         "nombre": "OTRAS ANOMALIAS HIPOPLASICAS DEL ENCEFALO"
       },
       {
         "nombre": "OTRAS FALTAS DEL DESARROLLO FISIOLOGICO NORMAL ESPERADO"
-      },
-      {
-        "nombre": "ASFIXIA DEL NACIMIENTO SEVERA"
       },
       {
         "nombre": "OTROS SINDROMES DE MALFORMACIONES CONGENITAS CON OTROS CAMBIOS ESQUELETICOS"
@@ -919,16 +907,19 @@ module.exports = {
         "nombre": "MALFORMACIONES CONGENITAS DE LA COLUMNA VERTEBRAL Y TORAX OSEO"
       },
       {
-        "nombre": "SUBLUXACION CONGENITA DE LA CADERA BILATERAL"
-      },
-      {
         "nombre": "NECROSIS ARTERIAL"
       },
       {
         "nombre": "OTRAS CONTRACTURAS DE TENDON (VAINA)"
       },
       {
-        "nombre": "OBESIDAD NO ESPECIFICADA"
+        "nombre": "QUEMADURA DEL HOMBRO Y MIEMBRO SUPERIOR, DE SEGUNDO GRADO, EXCEPTO DE LA MU¥ECA Y DE LA MANO"
+      },
+      {
+        "nombre": "FISURA DEL PALADAR BILATERAL, SIN OTRA ESPECIFICACION"
+      },
+      {
+        "nombre": "QUEMADURA DE LA CABEZA Y DEL CUELLO, DE SEGUNDO GRADO"
       },
       {
         "nombre": "DIABETES INSIPIDA"
@@ -955,28 +946,16 @@ module.exports = {
         "nombre": "TRASTORNO DEL DESARROLLO DEL HABLA Y DEL LENGUAJE NO ESPECIFICADO"
       },
       {
-        "nombre": "DEFORMIDAD ADQUIRIDA DEL SISTEMA OSTEOMUSCULAR NO ESPECIFICADA"
-      },
-      {
         "nombre": "ATAXIA CEREBELOSA CON REPARACION DEFECTUOSA DEL ADN"
       },
       {
-        "nombre": "TUMOR MALIGNO DEL HUESO Y DEL CARTILAGO ARTICULAR NO ESPECIFICADO"
+        "nombre": "AMPUTACION TRAUMATICA DE MIEMBROS SUPERIOR(ES) E INFERIOR(ES), CUALQUIER COMBINACION [CUALQUIER NIVEL]"
       },
       {
         "nombre": "SINDROME DE HIDANTOINA FETAL"
       },
       {
-        "nombre": "SINDROME DE DOWN NO ESPECIFICADO"
-      },
-      {
-        "nombre": "ALTERACIONES MORFOLOGICAS CONGENITAS DEL PELO NO CLASIFICADAS EN OTRA PARTE"
-      },
-      {
         "nombre": "EPILEPSIA Y SINDR EPILEPT SINTOMAT RELACIONADOS CON LOCAL (FOCALES)(PARCIALES) Y CON ATAQUES PARCIALES COMPLEJOS"
-      },
-      {
-        "nombre": "ARTROPATIA EN OTROS TRASTORNOS ENDOCRINOS METABOLICOS Y NUTRICIONALES"
       },
       {
         "nombre": "PARALISIS DE ERB DEBIDA A TRAUMATISMO DEL NACIMIENTO"
@@ -988,16 +967,13 @@ module.exports = {
         "nombre": "SINDROME SECO [SJOGREN]"
       },
       {
-        "nombre": "FOCOMELIA MIEMBRO(S) NO ESPECIFICADO(S)"
+        "nombre": "GLAUCOMA, NO ESPECIFICADO"
       },
       {
-        "nombre": "nombre DE LA MEDULA ESPINAL NO ESPECIFICADA"
+        "nombre": "ARTRITIS REUMATOIDE, NO ESPECIFICADA"
       },
       {
         "nombre": "ASIMETRIA FACIAL"
-      },
-      {
-        "nombre": "CURVATURA CONGENITA DE HUESO(S) LARGO(S) DEL MIEMBRO INFERIOR SIN OTRA ESPECIFICACION"
       },
       {
         "nombre": "ACORTAMIENTO DEL TENDON DE AQUILES (ADQUIRIDO)"
@@ -1024,19 +1000,31 @@ module.exports = {
         "nombre": "DIPLEJIA ESPASTICA"
       },
       {
+        "nombre": "TRASTORNO METABOLICO, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "TRISOMIA 18, MOSAICO (POR FALTA DE DISYUNCION MITOTICA)"
+      },
+      {
         "nombre": "HIPOPLASIA Y DISPLASIA PULMONAR"
       },
       {
         "nombre": "POLINEUROPATIAS EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE*"
       },
       {
+        "nombre": "HEMORRAGIA INTRACEREBRAL EN HEMISFERIO, SUBCORTICAL"
+      },
+      {
         "nombre": "TRAUMATISMO DEL SISTEMA NERVIOSO PERIFERICO DURANTE EL NACIMIENTO"
       },
       {
-        "nombre": "QUEMADURA Y CORROSION REGION DEL CUERPO NO ESPECIFICADA"
+        "nombre": "OTRAS DEFORMIDADES ADQUIRIDAS DE LOS MIEMBROS, ESPECIFICADAS"
       },
       {
         "nombre": "OTRAS DEFORMIDADES DEL PABELLON AURICULAR"
+      },
+      {
+        "nombre": "DEFECTO POR REDUCCION DEL MIEMBRO SUPERIOR, NO ESPECIFICADO"
       },
       {
         "nombre": "EXOSTOSIS CONGENITA MULTIPLE"
@@ -1045,7 +1033,13 @@ module.exports = {
         "nombre": "MONOPLEJIA DE MIEMBRO INFERIOR"
       },
       {
+        "nombre": "ATROFIA MUSCULAR ESPINAL, SIN OTRA ESPECIFICACION"
+      },
+      {
         "nombre": "VISION SUBNORMAL DE AMBOS OJOS"
+      },
+      {
+        "nombre": "RIGIDEZ ARTICULAR, NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "OTRO TRAUMATISMO DEL PLEXO BRAQUIAL DURANTE EL NACIMIENTO"
@@ -1063,13 +1057,25 @@ module.exports = {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR PRESENTACION ANOMALA ANTES DEL TRABAJO DE PARTO"
       },
       {
+        "nombre": "INSUFICIENCIA RENAL AGUDA, NO ESPECIFICADA"
+      },
+      {
         "nombre": "BAJO PESO PARA LA EDAD GESTACIONAL"
+      },
+      {
+        "nombre": "ENCEFALOCELE, NO ESPECIFICADO"
       },
       {
         "nombre": "HIPERACTIVIDAD"
       },
       {
+        "nombre": "POLINEUROPATIA, NO ESPECIFICADA"
+      },
+      {
         "nombre": "DEFORMIDADES ADQUIRIDAS DE LOS DEDOS DE LA MANO Y DEL PIE"
+      },
+      {
+        "nombre": "OSTEONECROSIS, NO ESPECIFICADA"
       },
       {
         "nombre": "ASFIXIA DEL NACIMIENTO"
@@ -1090,25 +1096,13 @@ module.exports = {
         "nombre": "SECUELAS DE TRAUMATISMOS DE MIEMBRO SUPERIOR"
       },
       {
-        "nombre": "ESCOLIOSIS NO ESPECIFICADA"
-      },
-      {
         "nombre": "DISTONIA IDIOPATICA FAMILIAR"
-      },
-      {
-        "nombre": "LESION CEREBRAL ANOXICA NO CLASIFICADA EN OTRA PARTE"
-      },
-      {
-        "nombre": "TRASTORNO DE LA CONDUCTA NO ESPECIFICADO"
       },
       {
         "nombre": "OTROS TRASTORNOS ESPECIFICADOS DE LOS TEJIDOS BLANDOS"
       },
       {
         "nombre": "OTRAS DEFORMIDADES VARUS CONGENITAS DE LOS PIES"
-      },
-      {
-        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL (DE LOS) MIEMBRO(S) INFERIOR(ES) INCLUIDA LA CINTURA PELVIANA"
       },
       {
         "nombre": "MIOCLONIA"
@@ -1123,10 +1117,16 @@ module.exports = {
         "nombre": "MIASTENIA CONGENITA O DEL DESARROLLO"
       },
       {
-        "nombre": "TRASTORNO DEL COMPORTAMIENTO SOCIAL EN LA NI¥EZ NO ESPECIFICADO"
+        "nombre": "MIOPATIAS CONGENITAS"
       },
       {
-        "nombre": "MIOPATIAS CONGENITAS"
+        "nombre": "RETRASO MENTAL LEVE, CON DETERIORO DEL COMPORTAMIENTO DE GRADO NO ESPECIFICADO"
+      },
+      {
+        "nombre": "MALFORMACION CONGENITA DEL CORAZON, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "DISPARO DE OTRAS ARMAS DE FUEGO, Y LAS NO ESPECIFICADAS, OTRO LUGAR ESPECIFICADO"
       },
       {
         "nombre": "SUPRESION DEL BRAZO CORTO DEL CROMOSOMA 5"
@@ -1138,12 +1138,6 @@ module.exports = {
         "nombre": "CONTRACTURA ARTICULAR"
       },
       {
-        "nombre": "ISQUEMIA CEREBRAL TRANSITORIA SIN OTRA ESPECIFICACION"
-      },
-      {
-        "nombre": "LUXACION DEL CODO NO ESPECIFICADA"
-      },
-      {
         "nombre": "AMENORREA PRIMARIA"
       },
       {
@@ -1153,28 +1147,40 @@ module.exports = {
         "nombre": "TRASTORNOS DEL NERVIO FACIAL"
       },
       {
+        "nombre": "SINDROMES DE MALFORMACIONES CONGENITAS DEBIDOS A CAUSAS EXOGENAS CONOCIDAS, NO CLASIFICADOS EN OTRA PARTE"
+      },
+      {
         "nombre": "POLIARTROPATIA INFLAMATORIA"
+      },
+      {
+        "nombre": "MANO O PIE EN GARRA O EN TALIPES, PIE EQUINOVARO O ZAMBO ADQUIRIDOS"
+      },
+      {
+        "nombre": "KERNICTERUS, NO ESPECIFICADO"
       },
       {
         "nombre": "LESIONES DEL HOMBRO"
       },
       {
-        "nombre": "DEFORMIDADES OSTEOMUSCULARES CONGENITAS DE LA CABEZA DE LA CARA DE LA COLUMNA VERTEBRAL Y DEL TORAX"
+        "nombre": "ESCOLIOSIS, NO ESPECIFICADA"
       },
       {
-        "nombre": "TESTICULO NO DESCENDIDO BILATERAL"
+        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL ENCEFALO, ESPECIFICADAS"
       },
       {
-        "nombre": "OSTEOCONDRODISPLASIA NO ESPECIFICADA"
+        "nombre": "LESIONES BIOMECANICAS, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
-        "nombre": "TUMOR MALIGNO DE LOS HUESOS Y DE LOS CARTILAGOS ARTICULARES DE LOS MIEMBROS SIN OTRA ESPECIFICACION"
+        "nombre": "AMPUTACION TRAUMATICA DE LA PIERNA, NIVEL NO ESPECIFICADO"
       },
       {
-        "nombre": "FISURA DEL PALADAR DURO CON LABIO LEPORINO BILATERAL"
+        "nombre": "TRASTORNO DEL SISTEMA NERVIOSO CENTRAL, NO ESPECIFICADO"
       },
       {
         "nombre": "DEFECTO DEL TABIQUE VENTRICULAR"
+      },
+      {
+        "nombre": "ALTERACIONES MORFOLOGICAS CONGENITAS DEL PELO, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "DEPENDENCIA DE SILLA DE RUEDAS"
@@ -1183,16 +1189,25 @@ module.exports = {
         "nombre": "CONCUSION Y EDEMA DE LA MEDULA ESPINAL TORACICA"
       },
       {
+        "nombre": "FISURA DEL PALADAR DURO CON LABIO LEPORINO, UNILATERAL"
+      },
+      {
         "nombre": "ESCOLIOSIS NEUROMUSCULAR"
+      },
+      {
+        "nombre": "TRASTORNO EXTRAPIRAMIDAL Y DEL MOVIMIENTO, NO ESPECIFICADO"
       },
       {
         "nombre": "MIELOPATIAS VASCULARES"
       },
       {
-        "nombre": "TRASTORNO DE LOS DISCOS INTERVERTEBRALES NO ESPECIFICADO"
+        "nombre": "PIE CAVUS"
       },
       {
-        "nombre": "PIE CAVUS"
+        "nombre": "MALFORMACIONES CONGENITAS DEL SISTEMA OSTEOMUSCULAR, NO CLASIFICADAS EN OTRA PARTE"
+      },
+      {
+        "nombre": "OTRAS MALFORMACIONES CONGENITAS DE LA PIEL, ESPECIFICADAS"
       },
       {
         "nombre": "CROMOSOMA X FRAGIL"
@@ -1213,6 +1228,9 @@ module.exports = {
         "nombre": "CEGUERA DE UN OJO"
       },
       {
+        "nombre": "MALFORMACION CONGENITA, NO ESPECIFICADA"
+      },
+      {
         "nombre": "HIPOPITUITARISMO"
       },
       {
@@ -1222,13 +1240,7 @@ module.exports = {
         "nombre": "OTRO PESO BAJO AL NACER"
       },
       {
-        "nombre": "TRISOMIA 13 MOSAICO (POR FALTA DE DISYUNCION MITOTICA)"
-      },
-      {
         "nombre": "DISPLASIA RENAL"
-      },
-      {
-        "nombre": "TRASTORNOS OSTEOMUSCULARES CONSECUTIVOS A PROCEDIMIENTOS NO CLASIFICADOS EN OTRA PARTE"
       },
       {
         "nombre": "ATRESIA DEL ESOFAGO SIN MENCION DE FISTULA"
@@ -1241,6 +1253,9 @@ module.exports = {
       },
       {
         "nombre": "SINDROMES DE MALFORMACIONES CONGENITAS QUE AFECTAN PRINCIPALMENTE LOS MIEMBROS"
+      },
+      {
+        "nombre": "TRAUMATISMO DE NERVIOS(S) SIMPATICO(S) LUMBAR(ES),SACRO(S) Y PELVICO(S)"
       },
       {
         "nombre": "HIPERTONIA CONGENITA"
@@ -1258,13 +1273,13 @@ module.exports = {
         "nombre": "ESCOLIOSIS TORACOGENICA"
       },
       {
+        "nombre": "GEMELOS, AMBOS NACIDOS VIVOS"
+      },
+      {
         "nombre": "AUSENCIA CONGENITA DEL PABELLON (DE LA OREJA)"
       },
       {
         "nombre": "QUERATODERMA EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE*"
-      },
-      {
-        "nombre": "ESTRABISMO NO ESPECIFICADO"
       },
       {
         "nombre": "MIELITIS NECROTIZANTE SUBAGUDA"
@@ -1279,7 +1294,10 @@ module.exports = {
         "nombre": "REFLEJOS ANORMALES"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DE LOS ORGANOS GENITALES MASCULINOS NO ESPECIFICADA"
+        "nombre": "FRACTURA PATOLOGICA, NO CLASIFICADA EN OTRA PARTE"
+      },
+      {
+        "nombre": "TUMOR MALIGNO DEL OJO, PARTE NO ESPECIFICADA"
       },
       {
         "nombre": "TRAUMATISMO NO ESPECIFICADO DEL SISTEMA NERVIOSO PERIFERICO DURANTE EL NACIMIENTO"
@@ -1288,10 +1306,7 @@ module.exports = {
         "nombre": "AMPUTACION TRAUMATICA DE OTRAS PARTES DEL PIE"
       },
       {
-        "nombre": "TUMOR MALIGNO DE LA MEDULA ESPINAL DE LOS NERVIOS CRANEALES Y DE OTRAS PARTES DEL SISTEMA NERVIOSO CENTRAL"
-      },
-      {
-        "nombre": "DEFECTO POR REDUCCION DEL MIEMBRO INFERIOR NO ESPECIFICADO"
+        "nombre": "TRASTORNO MUSCULAR, NO ESPECIFICADO"
       },
       {
         "nombre": "ALERGIA NO ESPECIFICADA"
@@ -1300,7 +1315,13 @@ module.exports = {
         "nombre": "FRACTURA DE LA DIAFISIS DE LA TIBIA"
       },
       {
+        "nombre": "ASFIXIA DEL NACIMIENTO, NO ESPECIFICADA"
+      },
+      {
         "nombre": "NEUROMIELITIS OPTICA (DEVIC)"
+      },
+      {
+        "nombre": "LABIO LEPORINO, LINEA MEDIA"
       },
       {
         "nombre": "TUMOR MALIGNO DE LA MEDULA ESPINAL"
@@ -1309,7 +1330,16 @@ module.exports = {
         "nombre": "TRASTORNOS HIPERCINETICOS"
       },
       {
+        "nombre": "SACROILIITIS, NO CLASIFICADA EN OTRA PARTE"
+      },
+      {
         "nombre": "PARALISIS CEREBRAL FLACIDA"
+      },
+      {
+        "nombre": "ESTRABISMO, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "OTRAS ENFERMEDADES DEGENERATIVAS DEL SISTEMA NERVIOSO, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "TUMOR BENIGNO DE LOS HUESOS LARGOS DEL MIEMBRO INFERIOR"
@@ -1321,25 +1351,19 @@ module.exports = {
         "nombre": "SECUELAS DE OTRAS ENFERMEDADES CEREBROVASCULARES ESPECIFICADAS O NO"
       },
       {
-        "nombre": "OTRAS DEFORMIDADES CONGENITAS OSTEOMUSCULARES ESPECIFICADAS"
-      },
-      {
         "nombre": "OTRAS MENINGITIS BACTERIANAS"
       },
       {
         "nombre": "FRACTURA DEL HUESO ILIACO"
       },
       {
+        "nombre": "AGENESIA RENAL, UNILATERAL"
+      },
+      {
         "nombre": "PERSONA LESIONADA EN ACCIDENTE DE VEHICULO NO ESPECIFICADO"
       },
       {
-        "nombre": "TRAUMA OBSTETRICO NO ESPECIFICADO"
-      },
-      {
-        "nombre": "POLINEUROPATIA INFLAMATORIA NO ESPECIFICADA"
-      },
-      {
-        "nombre": "AMPUTACION DEL PIE NIVEL NO ESPECIFICADO"
+        "nombre": "OTRA MALFORMACION CONGENITA DE LA COLUMNA VERTEBRAL, NO ASOCIADA CON ESCOLIOSIS"
       },
       {
         "nombre": "CONDRODISPLASIA PUNCTATA"
@@ -1396,9 +1420,6 @@ module.exports = {
         "nombre": "NEUROPATIA HEREDITARIA E IDIOPATICA"
       },
       {
-        "nombre": "DISPARO DE OTRAS ARMAS DE FUEGO Y LAS NO ESPECIFICADAS OTRO LUGAR ESPECIFICADO"
-      },
-      {
         "nombre": "OTROS TRASTORNOS DEL SISTEMA NERVIOSO CONSECUTIVOS A PROCEDIMIENTOS"
       },
       {
@@ -1408,10 +1429,7 @@ module.exports = {
         "nombre": "FRACTURAS DE OTRAS PARTES DEL FEMUR"
       },
       {
-        "nombre": "AMPUTACION TRAUMATICA DE LA PIERNA"
-      },
-      {
-        "nombre": "EPILEPSIA TIPO NO ESPECIFICADO"
+        "nombre": "ASFIXIA DEL NACIMIENTO, SEVERA"
       },
       {
         "nombre": "LUXACION DE LA ROTULA"
@@ -1420,19 +1438,10 @@ module.exports = {
         "nombre": "FRACTURA DE LA EPIFISIS INFERIOR DEL RADIO"
       },
       {
-        "nombre": "CARDIOMIOPATIA NO ESPECIFICADA"
-      },
-      {
         "nombre": "HIPOXIA INTRAUTERINA NOTADA POR PRIMERA VEZ DURANTE EL TRABAJO DE PARTO Y EL PARTO"
       },
       {
-        "nombre": "OTRAS HEMORRAGIAS GASTROINTESTINALES NEONATALES"
-      },
-      {
         "nombre": "DOLOR EN MIEMBRO"
-      },
-      {
-        "nombre": "OTROS RECIEN NACIDOS CON SOBREPESO PARA LA EDAD GESTACIONAL"
       },
       {
         "nombre": "FRACTURA DE LA CLAVICULA DEBIDA A TRAUMATISMO DEL NACIMIENTO"
@@ -1441,43 +1450,22 @@ module.exports = {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS DE LA AORTA"
       },
       {
-        "nombre": "DEFECTO DEL TABIQUE AURICULAR"
-      },
-      {
-        "nombre": "SINDROME DE REYE"
-      },
-      {
-        "nombre": "TUMOR BENIGNO DEL HUESO Y DEL CARTILAGO ARTICULAR SITIO NO ESPECIFICADO"
+        "nombre": "TRASTORNO DEL DESARROLLO PSICOLOGICO, NO ESPECIFICADO"
       },
       {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL TORAX OSEO"
       },
       {
-        "nombre": "RETRASO MENTAL GRAVE CON DETERIORO DEL COMPORTAMIENTO SIGNIFICATIVO QUE REQUIERE ATENCION O TRATAMIENTO"
-      },
-      {
-        "nombre": "CEGUERA DE AMBOS OJOS"
-      },
-      {
-        "nombre": "RETRASO MENTAL MODERADO CON DETERIORO DEL COMPORTAMIENTO DE GRADO NO ESPECIFICADO"
-      },
-      {
-        "nombre": "DEFORMIDAD EN VARO NO CLASIFICADA EN OTRA PARTE"
+        "nombre": "QUEMADURA DE LA CADERA Y MIEMBRO INFERIOR, DE SEGUNDO GRADO , EXCEPTO TOBILLO Y PIE"
       },
       {
         "nombre": "FRACTURA DEL ANTEBRAZO"
       },
       {
-        "nombre": "OTRAS SUPRESIONES DE LOS AUTOSOMAS"
-      },
-      {
-        "nombre": "GONARTROSIS NO ESPECIFICADA"
+        "nombre": "OTRAS ANOMALIAS CROMOSOMICAS, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "DEFECTO POR REDUCCION LONGITUDINAL DEL PERONE"
-      },
-      {
-        "nombre": "LIPOFUSCINOSIS CEROIDE NEURONAL"
       },
       {
         "nombre": "ATAXIA CEREBELOSA DE INICIACION TARDIA"
@@ -1486,52 +1474,25 @@ module.exports = {
         "nombre": "LEUCEMIA LINFOBLASTICA AGUDA"
       },
       {
-        "nombre": "TRASTORNO DEL ENCEFALO NO ESPECIFICADO"
-      },
-      {
         "nombre": "DISPLASIA DIAFISARIA PROGRESIVA"
-      },
-      {
-        "nombre": "OTRAS MALFORMACIONES CONGENITAS DE LA CARA Y DEL CUELLO"
-      },
-      {
-        "nombre": "HEMIPLEJIA ESPASTICA"
       },
       {
         "nombre": "ATROFIAS SISTEMICAS QUE AFECTAN PRIMARIAMENTE EL SISTEMA NERVIOSO CENTRAL EN ENFERMEDADES CLASIF EN OTRA PARTE*"
       },
       {
-        "nombre": "nombre DE HUNTINGTON"
-      },
-      {
-        "nombre": "SECUELAS DE TRAUMATISMOS DE LA CABEZA"
-      },
-      {
-        "nombre": "CATARATA CONGENITA"
-      },
-      {
-        "nombre": "CUADRIPLEJIA NO ESPECIFICADA"
+        "nombre": "TRISOMIA 13, MOSAICO (POR FALTA DE DISYUNCION MITOTICA)"
       },
       {
         "nombre": "ANORMALIDADES DE LA MARCHA Y DE LA MOVILIDAD"
       },
       {
-        "nombre": "LUMBAGO NO ESPECIFICADO"
+        "nombre": "COMPRESION MEDULAR, NO ESPECIFICADA"
       },
       {
         "nombre": "SINDROME DE MARFAN"
       },
       {
-        "nombre": "TORAX EXCAVADO"
-      },
-      {
-        "nombre": "DISTONIA NO ESPECIFICADA"
-      },
-      {
         "nombre": "DESNUTRICION PROTEICOCALORICA LEVE"
-      },
-      {
-        "nombre": "FETO Y R/N AFECTADOS POR CONDICIONES DE LA MADRE NO NECESARIAMENTE RELACIONADAS CON EL EMBARAZO PRESENTE"
       },
       {
         "nombre": "OTROS DEFECTOS POR REDUCCION DEL (DE LOS) MIEMBRO(S) SUPERIOR(ES)"
@@ -1549,16 +1510,7 @@ module.exports = {
         "nombre": "SEPSIS DEL RECIEN NACIDO DEBIDA A OTRAS BACTERIAS"
       },
       {
-        "nombre": "DEFORMIDAD EN FLEXION"
-      },
-      {
-        "nombre": "OTRAS DISFUNCIONES NEUROMUSCULARES DE LA VEJIGA"
-      },
-      {
         "nombre": "OTRAS EPILEPSIAS Y SINDROMES EPILEPTICOS GENERALIZADOS"
-      },
-      {
-        "nombre": "SINDROME DE FATIGA POSTVIRAL"
       },
       {
         "nombre": "PARAPLEJIA ESPASTICA"
@@ -1567,70 +1519,25 @@ module.exports = {
         "nombre": "CIFOSIS Y LORDOSIS"
       },
       {
-        "nombre": "FRACTURA DE OTROS HUESOS METACARPIANOS"
+        "nombre": "OSTEOCONDROPATIA, NO ESPECIFICADA"
       },
       {
         "nombre": "OBSERVACION Y EVALUACION MEDICAS POR SOSPECHA DE ENFERMEDADES Y AFECCIONES"
       },
       {
-        "nombre": "TALIPES CALCANEOVALGUS"
-      },
-      {
         "nombre": "OTROS HIDROCEFALOS CONGENITOS"
-      },
-      {
-        "nombre": "AUSENCIA CONGENITA COMPLETA DEL (DE LOS) MIEMBRO(S) INFERIOR(ES)"
-      },
-      {
-        "nombre": "OTRAS DEFORMIDADES ADQUIRIDAS DE LOS MIEMBROS ESPECIFICADAS"
-      },
-      {
-        "nombre": "TETRALOGIA DE FALLOT"
-      },
-      {
-        "nombre": "SINDROME DE DI GEORGE"
-      },
-      {
-        "nombre": "SECUELAS DE TRAUMATISMOS DE MIEMBRO INFERIOR"
       },
       {
         "nombre": "ESPINA BIFIDA SACRA SIN HIDROCEFALO"
       },
       {
-        "nombre": "QUEMADURA DE LA CABEZA Y DEL CUELLO DE SEGUNDO GRADO"
+        "nombre": "SINDROME DE PATAU, NO ESPECIFICADO"
       },
       {
-        "nombre": "OTRAS DEFORMIDADES CONGENITAS DE LA CADERA"
+        "nombre": "OBSERVACION POR SOSPECHA DE ENFERMEDAD O AFECCION NO ESPECIFICADA"
       },
       {
-        "nombre": "TRASTORNOS RELACIONADOS CON DURACION CORTA DE LA GESTACION Y CON BAJO PESO AL NACER NO CLASIF. EN OTRA PARTE"
-      },
-      {
-        "nombre": "OTRAS MALFORMACIONES CONGENITAS DE LA PIEL ESPECIFICADAS"
-      },
-      {
-        "nombre": "FIBROSIS QUISTICA SIN OTRA ESPECIFICACION"
-      },
-      {
-        "nombre": "PLAGIOCEFALIA"
-      },
-      {
-        "nombre": "MOVIMIENTOS INVOLUNTARIOS ANORMALES"
-      },
-      {
-        "nombre": "OBSERVACION POR SOSPECHA DE nombre O AFECCION NO ESPECIFICADA"
-      },
-      {
-        "nombre": "PARAPLEJIA FLACIDA"
-      },
-      {
-        "nombre": "INFECCION NO ESPECIFICADA DE LAS VIAS URINARIAS EN EL EMBARAZO"
-      },
-      {
-        "nombre": "ESTRABISMO CONCOMITANTE CONVERGENTE"
-      },
-      {
-        "nombre": "ACONDROPLASIA"
+        "nombre": "SINOVITIS Y TENOSINOVITIS, NO ESPECIFICADA"
       },
       {
         "nombre": "NEUROPATIA ASOCIADA CON ATAXIA HEREDITARIA"
@@ -1642,34 +1549,10 @@ module.exports = {
         "nombre": "MICROFTALMIA"
       },
       {
-        "nombre": "TRASTORNO HIPERCINETICO NO ESPECIFICADO"
-      },
-      {
-        "nombre": "POLIDACTILIA NO ESPECIFICADA"
-      },
-      {
         "nombre": "PARALISIS PERIODICA"
       },
       {
-        "nombre": "LESION BIOMECANICA NO ESPECIFICADA"
-      },
-      {
-        "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR PARTO PRECIPITADO"
-      },
-      {
-        "nombre": "FRACTURA DE OTRAS PARTES DEL ANTEBRAZO"
-      },
-      {
-        "nombre": "OTRAS ENFERMEDADES DE LA VALVULA MITRAL"
-      },
-      {
-        "nombre": "SINDROMES DE MALFORMACIONES CONGENITAS QUE AFECTAN PRINCIPALMENTE LA APARIENCIA FACIAL"
-      },
-      {
-        "nombre": "OTROS DEFECTOS POR REDUCCION DE MIEMBRO(S) NO ESPECIFICADO(S)"
-      },
-      {
-        "nombre": "INDIVIDUOS CON HETEROCROMATINA MARCADORA"
+        "nombre": "OTRAS TRISOMIAS Y TRISOMIAS PARCIALES DE LOS AUTOSOMAS, ESPECIFICADAS"
       },
       {
         "nombre": "MANO EN PINZA DE LANGOSTA"
@@ -1678,19 +1561,10 @@ module.exports = {
         "nombre": "MALFORMACION CONGENITA DE LA RODILLA"
       },
       {
-        "nombre": "OTROS TRASTORNOS DE LOS TEJIDOS BLANDOS NO CLASIFICADOS EN OTRA PARTE"
-      },
-      {
-        "nombre": "OTROS TRASTORNOS DEL SISTEMA NERVIOSO NO CLASIFICADOS EN OTRA PARTE"
-      },
-      {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR TRASTORNOS HIPERTENSIVOS DE LA MADRE"
       },
       {
-        "nombre": "nombre POR VIRUS CITOMEGALICO NO ESPECIFICADA"
-      },
-      {
-        "nombre": "OSTEOCONDROSIS JUVENIL NO ESPECIFICADA"
+        "nombre": "ARTROPATIA EN OTROS TRASTORNOS ENDOCRINOS, METABOLICOS Y NUTRICIONALES"
       },
       {
         "nombre": "ARTRITIS JUVENIL"
@@ -1699,19 +1573,19 @@ module.exports = {
         "nombre": "HIPOGLICEMIA NEONATAL YATROGENICA"
       },
       {
-        "nombre": "QUEMADURA DE LA MU¥ECA Y DE LA MANO DE TERCER GRADO"
-      },
-      {
-        "nombre": "MALFORMACION CONGENITA DE LA MEDULA ESPINAL NO ESPECIFICADA"
-      },
-      {
         "nombre": "OTRAS NEUROPATIAS HEREDITARIAS E IDIOPATICAS"
+      },
+      {
+        "nombre": "PARAPLEJIA, NO ESPECIFICADA"
       },
       {
         "nombre": "TUMOR MALIGNO DE LA RETINA"
       },
       {
         "nombre": "MIOPATIA EN ENFERMEDADES METABOLICAS*"
+      },
+      {
+        "nombre": "MALFORMACION CONGENITA DE LA CARA Y DEL CUELLO, NO ESPECIFICADA"
       },
       {
         "nombre": "AMPUTACION TRAUMATICA NIVEL ENTRE EL CODO Y LA MU¥ECA"
@@ -1726,40 +1600,19 @@ module.exports = {
         "nombre": "TRASTORNOS DEL TRANSPORTE DE LOS AMINOACIDOS"
       },
       {
-        "nombre": "TRASTORNO NO ESPECIFICADO DE LOS TEJIDOS BLANDOS RELACIONADO CON EL USO EL USO EXCESIVO Y LA PRESION"
-      },
-      {
-        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL ENCEFALO ESPECIFICADAS"
-      },
-      {
         "nombre": "CARDIOMIOPATIA HIPERTROFICA OBSTRUCTIVA"
       },
       {
         "nombre": "HEMORRAGIA INTRAENCEFALICA"
       },
       {
-        "nombre": "TRASTORNO DEL DESARROLLO PSICOLOGICO NO ESPECIFICADO"
-      },
-      {
-        "nombre": "SINDROMES DE MALFORMACIONES CONGENITAS DEBIDOS A CAUSAS EXOGENAS CONOCIDAS NO CLASIFICADOS EN OTRA PARTE"
-      },
-      {
         "nombre": "PERSISTENCIA DE LA CIRCULACION FETAL"
-      },
-      {
-        "nombre": "ENZIMAS NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "ISQUEMIA CEREBRAL NEONATAL"
       },
       {
-        "nombre": "OTRAS MALFORMACIONES CONGENITAS NO CLASIFICADAS EN OTRA PARTE"
-      },
-      {
         "nombre": "SECUELAS DE OTRAS CAUSAS EXTERNAS"
-      },
-      {
-        "nombre": "OTRA MALFORMACION CONGENITA DE LA COLUMNA VERTEBRAL NO ASOCIADA CON ESCOLIOSIS"
       },
       {
         "nombre": "ALTERACIONES DE LA VOZ"
@@ -1777,12 +1630,6 @@ module.exports = {
         "nombre": "CURVATURA CONGENITA DE LA TIBIA Y DEL PERONE"
       },
       {
-        "nombre": "KERNICTERUS NO ESPECIFICADO"
-      },
-      {
-        "nombre": "HIPOACUSIA NEUROSENSORIAL BILATERAL"
-      },
-      {
         "nombre": "HIDROCEFALO OBSTRUCTIVO"
       },
       {
@@ -1792,34 +1639,37 @@ module.exports = {
         "nombre": "SINDROME DE ARNOLD-CHIARI"
       },
       {
+        "nombre": "TRASTORNO DE LA RAIZ Y PLEXOS NERVIOSOS, NO ESPECIFICADO"
+      },
+      {
         "nombre": "PARAPLEJIA ESPASTICA HEREDITARIA"
       },
       {
         "nombre": "OTROS TRASTORNOS RESULTANTES DE LA FUNCION TUBULAR RENAL ALTERADA"
       },
       {
-        "nombre": "nombre CARDIACA NO ESPECIFICADA"
+        "nombre": "VERTEBRA COLAPSADA, NO CLASIFICADA EN OTRA PARTE"
       },
       {
-        "nombre": "CONVULSIONES NO CLASIFICADAS EN OTRA PARTE"
+        "nombre": "TRISOMIA 18, POR TRANSLOCACION"
       },
       {
         "nombre": "OTRAS MIOPATIAS"
       },
       {
-        "nombre": "nombre DEL REFLUJO GASTROESOFAGICO SIN ESOFAGITIS"
-      },
-      {
-        "nombre": "LUXACION CONGENITA DE LA CADERA NO ESPECIFICADA"
+        "nombre": "ENFERMEDAD DEL REFLUJO GASTROESOFAGICO SIN ESOFAGITIS"
       },
       {
         "nombre": "HIDROCELE CONGENITO"
       },
       {
-        "nombre": "ENCEFALITIS MIELITIS Y ENCEFALOMIELITIS EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE*"
+        "nombre": "HEMORRAGIA INTRAVENTRICULAR (NO TRAUMATICA) GRADO 2, DEL FETO Y DEL RECIEN NACIDO"
       },
       {
         "nombre": "LESION DEL NERVIO CIATICO"
+      },
+      {
+        "nombre": "ANOMALIA CROMOSOMICA, NO ESPECIFICADA"
       },
       {
         "nombre": "OTROS TRASTORNOS ARTICULARES ESPECIFICADOS"
@@ -1831,10 +1681,10 @@ module.exports = {
         "nombre": "DISPLASIA OPTICOSEPTAL"
       },
       {
-        "nombre": "OTRAS OSTEOCONDRODISPLASIAS ESPECIFICADAS"
+        "nombre": "EPILEPSIA, TIPO NO ESPECIFICADO"
       },
       {
-        "nombre": "LABIO LEPORINO UNILATERAL"
+        "nombre": "OTRAS OSTEOCONDRODISPLASIAS ESPECIFICADAS"
       },
       {
         "nombre": "TUMOR BENIGNO DE LA MEDULA ESPINAL"
@@ -1846,22 +1696,19 @@ module.exports = {
         "nombre": "OTROS MOVIMIENTOS ANORMALES INVOLUNTARIOS Y LOS NO ESPECIFICADOS"
       },
       {
-        "nombre": "QUEMADURA DE LA MU¥ECA Y DE LA MANO DE SEGUNDO GRADO"
+        "nombre": "TUMOR MALIGNO DE LOS NERVIOS PERIFERICOS DEL MIEMBRO INFERIOR, INCLUIDA LA CADERA"
       },
       {
-        "nombre": "LABIO LEPORINO LINEA MEDIA"
+        "nombre": "ATROFIA MUSCULAR ESPINAL INFANTIL, TIPO I (WERDNIG-HOFFMAN)"
       },
       {
         "nombre": "ALTERACIONES DE LA VISION"
       },
       {
-        "nombre": "TRASTORNO EXTRAPIRAMIDAL Y DEL MOVIMIENTO NO ESPECIFICADO"
+        "nombre": "HIDROCEFALO CONGENITO, NO ESPECIFICADO"
       },
       {
         "nombre": "TRASTORNOS GENERALIZADOS DEL DESARROLLO"
-      },
-      {
-        "nombre": "QUEMADURA DE LA CADERA Y MIEMBRO INFERIOR DE SEGUNDO GRADO  EXCEPTO TOBILLO Y PIE"
       },
       {
         "nombre": "OTRA HIPOCALCEMIA NEONATAL"
@@ -1870,16 +1717,22 @@ module.exports = {
         "nombre": "CIFOSIS POSTURAL"
       },
       {
+        "nombre": "ENCEFALITIS, MIELITIS Y ENCEFALOMIELITIS EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE*"
+      },
+      {
         "nombre": "GASTROSQUISIS"
       },
       {
-        "nombre": "nombre DE LA ORINA EN JARABE DE ARCE"
+        "nombre": "ENFERMEDAD DE LA ORINA EN JARABE DE ARCE"
       },
       {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS ESPECIFICADAS DE LA MEDULA ESPINAL"
       },
       {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR OTRAS COMPLICACIONES MATERNAS DEL EMBARAZO"
+      },
+      {
+        "nombre": "TRASTORNO CARDIOVASCULAR NO ESPECIFICADO, ORIGINADO EN EL PERIODO PERINATAL"
       },
       {
         "nombre": "TRASTORNOS FUNCIONALES DE LOS POLIMORFONUCLEARES NEUTROFILOS"
@@ -1891,7 +1744,13 @@ module.exports = {
         "nombre": "PARALISIS DE KLUMPKE DEBIDA A TRAUMATISMO DEL NACIMIENTO"
       },
       {
-        "nombre": "OTROS TRASTORNOS MENTALES ESPECIFICADOS DEBIDOS A LESION Y DISFUNCION CEREBRAL Y A nombre FISICA"
+        "nombre": "OTROS TRASTORNOS MENTALES ESPECIFICADOS DEBIDOS A LESION Y DISFUNCION CEREBRAL Y A ENFERMEDAD FISICA"
+      },
+      {
+        "nombre": "MALFORMACION CONGENITA DEL TORAX OSEO, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "DIFICULTAD RESPIRATORIA DEL RECIEN NACIDO, NO ESPECIFICADA"
       },
       {
         "nombre": "OTRAS ALTERACIONES CEREBRALES DEL RECIEN NACIDO"
@@ -1924,7 +1783,13 @@ module.exports = {
         "nombre": "ATAQUES DE ISQUEMIA CEREBRAL TRANSITORIA Y SINDROMES AFINES"
       },
       {
-        "nombre": "OTRAS TRISOMIAS Y TRISOMIAS PARCIALES DE LOS AUTOSOMAS NO CLASIFICADAS EN OTRA PARTE"
+        "nombre": "CUADRIPLEJIA, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "REUMATISMO, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "ANOMALIA DE LOS CROMOSOMAS SEXUALES, CON FENOTIPO FEMENINO, SIN OTRA ESPECIFICACION"
       },
       {
         "nombre": "RETARDO DEL DESARROLLO"
@@ -1933,10 +1798,10 @@ module.exports = {
         "nombre": "RETRASO MENTAL GRAVE"
       },
       {
-        "nombre": "OTRAS DEFORMIDADES CONGENITAS DE LOS PIES"
+        "nombre": "CURVATURA CONGENITA DE HUESO(S) LARGO(S) DEL MIEMBRO INFERIOR, SIN OTRA ESPECIFICACION"
       },
       {
-        "nombre": "TRAUMATISMO DE LA MEDULA ESPINAL NIVEL NO ESPECIFICADO"
+        "nombre": "OTRAS DEFORMIDADES CONGENITAS DE LOS PIES"
       },
       {
         "nombre": "FRACTURA DEL CUELLO DE FEMUR"
@@ -1945,28 +1810,31 @@ module.exports = {
         "nombre": "KERNICTERUS DEBIDO A INCOMPATIBILIDAD"
       },
       {
-        "nombre": "OSTEOCONDRODISPLASIA CON DEFECTOS DEL CRECIM. DE LOS HUESOS LARGOS Y DE LA COLUMNA VERTEBRAL SIN OTRA ESPECIF."
+        "nombre": "CEGUERA DE UN OJO, VISION SUBNORMAL DEL OTRO"
       },
       {
         "nombre": "ESPINA BIFIDA LUMBAR SIN HIDROCEFALO"
       },
       {
-        "nombre": "ASFIXIA DEL NACIMIENTO NO ESPECIFICADA"
-      },
-      {
         "nombre": "TRASTORNO ESPECIFICO DEL DESARROLLO DEL HABLA Y DEL LENGUAJE"
       },
       {
-        "nombre": "DESMIELINIZACION DISEMINADA AGUDA SIN OTRA ESPECIFICACION"
+        "nombre": "DISTONIA, NO ESPECIFICADA"
       },
       {
-        "nombre": "TRASTORNO METABOLICO NO ESPECIFICADO"
+        "nombre": "MIOPATIA INFLAMATORIA, NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "TRASTORNOS DE LOS MOVIMIENTOS ESTEREOTIPADOS"
       },
       {
+        "nombre": "SUBLUXACION CONGENITA DE LA CADERA, BILATERAL"
+      },
+      {
         "nombre": "ARTROPATIAS POSINFECCIOSAS Y REACTIVAS EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE"
+      },
+      {
+        "nombre": "MALFORMACIONES CONGENITAS DEL PALADAR, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "CONTRACTURA MUSCULAR"
@@ -1975,13 +1843,16 @@ module.exports = {
         "nombre": "ESPONDILITIS ANQUILOSANTE JUVENIL"
       },
       {
+        "nombre": "HIPOACUSIA MIXTA CONDUCTIVA Y NEUROSENSORIAL, BILATERAL"
+      },
+      {
         "nombre": "TRISOMIA PARCIAL MAYOR"
       },
       {
-        "nombre": "TRASTORNOS DEL METABOLISMO DE LOS ACIDOS GRASOS"
+        "nombre": "TRASTORNO PRIMARIO DEL MUSCULO, TIPO NO ESPECIFICADO"
       },
       {
-        "nombre": "TRASTORNO MUSCULAR NO ESPECIFICADO"
+        "nombre": "TRASTORNOS DEL METABOLISMO DE LOS ACIDOS GRASOS"
       },
       {
         "nombre": "POLIHIDRAMNIOS"
@@ -1993,22 +1864,16 @@ module.exports = {
         "nombre": "AUTISMO ATIPICO"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DEL ENCEFALO NO ESPECIFICADA"
-      },
-      {
         "nombre": "AMPUTACION TRAUMATICA EN ALGUN NIVEL ENTRE LA CADERA Y LA RODILLA"
       },
       {
         "nombre": "OTROS SINDROMES PARALITICOS ESPECIFICADOS"
       },
       {
-        "nombre": "TRASTORNO DEL SISTEMA NERVIOSO CENTRAL NO ESPECIFICADO"
+        "nombre": "HIPOACUSIA NEUROSENSORIAL, BILATERAL"
       },
       {
         "nombre": "ARTROGRIPOSIS MULTIPLE CONGENITA"
-      },
-      {
-        "nombre": "TRASTORNO DE LA CONTINUIDAD DEL HUESO NO ESPECIFICADO"
       },
       {
         "nombre": "OSTEOCONDROSIS JUVENIL DE LA TIBIA Y DEL PERONE"
@@ -2017,16 +1882,16 @@ module.exports = {
         "nombre": "DEFICIENCIA DE LA VISION CROMATICA"
       },
       {
-        "nombre": "SUBLUXACION CONGENITA DE LA CADERA UNILATERAL"
-      },
-      {
         "nombre": "SINOVITIS VELLONODULAR (PIGMENTADA)"
       },
       {
         "nombre": "TRASTORNO DEL MUSCULO Y DE LA UNION NEUROMUSCULAR EN ENFERMEDADES CLASIFICADAS EN OTRAS PARTE*"
       },
       {
-        "nombre": "nombre DEL REFLUJO GASTROESOFAGICO"
+        "nombre": "ENFERMEDAD DEL REFLUJO GASTROESOFAGICO"
+      },
+      {
+        "nombre": "MENINGITIS, NO ESPECIFICADA"
       },
       {
         "nombre": "POLINEUROPATIA EN OTROS TRASTORNOS OSTEOMUSCULARES*"
@@ -2038,10 +1903,16 @@ module.exports = {
         "nombre": "TRASTORNOS MUSCULARES PRIMARIOS"
       },
       {
+        "nombre": "OSTEOCONDRODISPLASIA CON DEFECTOS DEL CRECIM. DE LOS HUESOS LARGOS Y DE LA COLUMNA VERTEBRAL, SIN OTRA ESPECIF."
+      },
+      {
         "nombre": "OSTEONECROSIS DEBIDA A TRAUMATISMO PREVIO"
       },
       {
         "nombre": "EPILEPSIA Y SINDR EPILEPT IDIOPAT RELACIONADOS CON LOCAL (FOCALES)(PARCIALES) Y CON ATAQUES DE INICIO LOCALIZADO"
+      },
+      {
+        "nombre": "POLINEUROPATIA INFLAMATORIA, NO ESPECIFICADA"
       },
       {
         "nombre": "TRAUMATISMO DE LA MEDULA ESPINAL Y DE NERVIOS A NIVEL DEL CUELLO"
@@ -2068,7 +1939,7 @@ module.exports = {
         "nombre": "ATROFIA OPTICA"
       },
       {
-        "nombre": "MONOPLEJIA NO ESPECIFICADA"
+        "nombre": "DEFORMIDAD ADQUIRIDA DEL MIEMBRO, NO ESPECIFICADA"
       },
       {
         "nombre": "TRASTORNOS DE LA CONDUCTA"
@@ -2080,16 +1951,10 @@ module.exports = {
         "nombre": "METATARSUS VARUS"
       },
       {
-        "nombre": "DISFUNCION NEUROMUSCULAR DE LA VEJIGA NO ESPECIFICADA"
-      },
-      {
         "nombre": "OTROS INFARTOS CEREBRALES"
       },
       {
         "nombre": "ARTROSIS PRIMARIA DE OTRAS ARTICULACIONES"
-      },
-      {
-        "nombre": "VEJIGA NEUROPATICA REFLEJA NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "DISPLASIA DISTROFICA"
@@ -2122,7 +1987,10 @@ module.exports = {
         "nombre": "OTROS DEFECTOS POR REDUCCION DEL (DE LOS) MIEMBRO(S) INFERIOR(ES)"
       },
       {
-        "nombre": "ESPINA BIFIDA CON HIDROCEFALO SIN OTRA ESPECIFICACION"
+        "nombre": "OTRAS MALFORMACIONES CONGENITAS, ESPECIFICADAS"
+      },
+      {
+        "nombre": "DEGENERACION DEL SISTEMA NERVIOSO, NO ESPECIFICADA"
       },
       {
         "nombre": "OTROS TRASTORNOS DEL ENCEFALO"
@@ -2137,7 +2005,7 @@ module.exports = {
         "nombre": "SINDROME DE HIPERMOVILIDAD"
       },
       {
-        "nombre": "FRACTURA DE MIEMBRO INFERIOR NIVEL NO ESPECIFICADO"
+        "nombre": "DEFORMIDAD EN VARO, NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "AMPUTACION TRAUMATICA DE DOS O MAS DEDOS SOLAMENTE (COMPLETA) (PARCIAL)"
@@ -2146,16 +2014,13 @@ module.exports = {
         "nombre": "POLINEUROPATIA EN ENFERMEDADES INFECCIOSAS Y PARASITARIAS CLASIFICADAS EN OTRA PARTE*"
       },
       {
-        "nombre": "ENANISMO NO CLASIFICADO EN OTRA PARTE"
-      },
-      {
-        "nombre": "VEJIGA NEUROPATICA NO INHIBIDA NO CLASIFICADA EN OTRA PARTE"
-      },
-      {
-        "nombre": "FISURA DEL PALADAR LINEA MEDIA"
+        "nombre": "TUMOR BENIGNO DEL SISTEMA NERVIOSO CENTRAL, SITIO NO ESPECIFICADO"
       },
       {
         "nombre": "DEFORMIDAD DE DEDO(S) DE LA MANO"
+      },
+      {
+        "nombre": "MENINGITIS BACTERIANA, NO ESPECIFICADA"
       },
       {
         "nombre": "OTRAS ATROFIAS MUSCULARES ESPINALES Y SINDROMES AFINES"
@@ -2167,19 +2032,25 @@ module.exports = {
         "nombre": "MONONEUROPATIA DEL MIEMBRO SUPERIOR"
       },
       {
+        "nombre": "FIBROSIS QUISTICA, SIN OTRA ESPECIFICACION"
+      },
+      {
+        "nombre": "OTROS SINDROMES DE MALFORMACIONES CONGENITAS ESPECIFICADOS, NO CLASIFICADOS EN OTRA PARTE"
+      },
+      {
         "nombre": "HOLOPROSENCEFALIA"
       },
       {
-        "nombre": "DOLOR NO CLASIFICADO EN OTRA PARTE"
+        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL SISTEMA NERVIOSO, ESPECIFICADAS"
+      },
+      {
+        "nombre": "SINDACTILIA, NO ESPECIFICADA"
       },
       {
         "nombre": "SINDROME DE INFARTO CEREBELOSO"
       },
       {
         "nombre": "OTROS TRASTORNOS DE LOS NERVIOS CRANEALES EN OTRAS ENFERMEDADES CLASIFICADAS EN OTRA PARTE*"
-      },
-      {
-        "nombre": "LUXACION CONGENITA DE LA CADERA UNILATERAL"
       },
       {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR RUPTURA PREMATURA DE LAS MEMBRANAS"
@@ -2191,19 +2062,16 @@ module.exports = {
         "nombre": "DISFASIA Y AFASIA"
       },
       {
-        "nombre": "MIOPATIA NO ESPECIFICADA"
+        "nombre": "MIOPATIA, NO ESPECIFICADA"
       },
       {
-        "nombre": "FALTA DEL DESARROLLO FISIOLOGICO NORMAL ESPERADO SIN OTRA ESPECIFICACION"
+        "nombre": "DIFICULTAD PARA CAMINAR, NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "DOLOR EN LA COLUMNA DORSAL"
       },
       {
         "nombre": "SECUELAS DE TRAUMATISMO INTRACRANEAL"
-      },
-      {
-        "nombre": "ATAXIA NO ESPECIFICADA"
       },
       {
         "nombre": "ANQUILOSIS ARTICULAR"
@@ -2215,13 +2083,16 @@ module.exports = {
         "nombre": "HIDROCEFALO"
       },
       {
-        "nombre": "nombre DEL ALMACENAMIENTO DE GLUCOGENO"
+        "nombre": "ENFERMEDAD DEL ALMACENAMIENTO DE GLUCOGENO"
       },
       {
-        "nombre": "MALFORMACIONES CONGENITAS MULTIPLES NO CLASIFICADAS EN OTRA PARTE"
+        "nombre": "SINDROME DE DOWN, NO ESPECIFICADO"
       },
       {
         "nombre": "TUMOR MALIGNO DEL MIEMBRO INFERIOR"
+      },
+      {
+        "nombre": "ESPINA BIFIDA CON HIDROCEFALO, SIN OTRA ESPECIFICACION"
       },
       {
         "nombre": "ESCLEROSIS TUBEROSA"
@@ -2230,28 +2101,13 @@ module.exports = {
         "nombre": "SINDROME DE COSTILLA CORTA"
       },
       {
-        "nombre": "HIPOACUSIA NO ESPECIFICADA"
-      },
-      {
-        "nombre": "TRISOMIA DE UN CROMOSOMA COMPLETO MOSAICO (POR FALTA DE DISYUNCION MITOTICA)"
-      },
-      {
-        "nombre": "COMPRESION MEDULAR NO ESPECIFICADA"
-      },
-      {
         "nombre": "SINDROME DE DIFICULTAD RESPIRATORIA DEL RECIEN NACIDO"
-      },
-      {
-        "nombre": "AMPUTACION TRAUMATICA DE LA PIERNA NIVEL NO ESPECIFICADO"
       },
       {
         "nombre": "TRASTORNOS DEL METABOLISMO DE LOS AMINOACIDOS AZUFRADOS"
       },
       {
-        "nombre": "POLINEUROPATIA NO ESPECIFICADA"
-      },
-      {
-        "nombre": "TRASTORNO DE LA RAIZ Y PLEXOS NERVIOSOS NO ESPECIFICADO"
+        "nombre": "MALFORMACION CONGENITA DEL ENCEFALO, NO ESPECIFICADA"
       },
       {
         "nombre": "TRASTORNO DE LA CONDUCTA LIMITADO AL CONTEXTO FAMILIAR"
@@ -2269,10 +2125,10 @@ module.exports = {
         "nombre": "CRANEOSINOSTOSIS"
       },
       {
-        "nombre": "SINDROME DE PATAU NO ESPECIFICADO"
+        "nombre": "VEJIGA NEUROPATICA FLACIDA, NO CLASIFICADA EN OTRA PARTE"
       },
       {
-        "nombre": "NEVO NO NEOPLASICO CONGENITO"
+        "nombre": "LINFANGIOMA, DE CUALQUIER SITIO"
       },
       {
         "nombre": "OTRAS COREAS"
@@ -2284,28 +2140,25 @@ module.exports = {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR OLIGOHIDRAMNIOS"
       },
       {
+        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL (DE LOS) MIEMBRO(S) SUPERIOR(ES), INCLUIDA LA CINTURA ESCAPULAR"
+      },
+      {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS ESPECIFICADAS DE CARA Y CUELLO"
       },
       {
-        "nombre": "RETRASO MENTAL GRAVE CON DETERIORO DEL COMPORTAMIENTO NULO O MINIMO"
-      },
-      {
-        "nombre": "FRACTURA PATOLOGICA NO CLASIFICADA EN OTRA PARTE"
+        "nombre": "LESION DEL HOMBRO, NO ESPECIFICADA"
       },
       {
         "nombre": "HERNIA DIAFRAGMATICA CONGENITA"
       },
       {
-        "nombre": "FRACTURA DE LA PIERNA INCLUSIVE EL TOBILLO"
-      },
-      {
-        "nombre": "HIDROCEFALO NO ESPECIFICADO"
+        "nombre": "ENCEFALITIS, MIELITIS Y ENCEFALOMIELITIS"
       },
       {
         "nombre": "PARALISIS CEREBRAL DISCINETICA"
       },
       {
-        "nombre": "MENINGITIS BACTERIANA NO ESPECIFICADA"
+        "nombre": "QUEMADURA DE LA MU¥ECA Y DE LA MANO, DE SEGUNDO GRADO"
       },
       {
         "nombre": "MALFORMACIONES CONGENITAS DEL SEGMENTO ANTERIOR DEL OJO"
@@ -2314,19 +2167,7 @@ module.exports = {
         "nombre": "MACROCEFALIA"
       },
       {
-        "nombre": "OTROS TRASTORNOS ORGANICOS DE LA PERSONALIDAD Y DEL COMPORTAMIENTO DEBIDOS A ENF. LESION Y DISF. CEREBRALES"
-      },
-      {
-        "nombre": "SACROILIITIS NO CLASIFICADA EN OTRA PARTE"
-      },
-      {
         "nombre": "INESTABILIDAD CRONICA DE LA RODILLA"
-      },
-      {
-        "nombre": "OTRAS MALFORMACIONES CONGENITAS ESPECIFICADAS"
-      },
-      {
-        "nombre": "INTESTINO NEUROGENICO NO CLASIFICADO EN OTRA PARTE"
       },
       {
         "nombre": "EPILEPSIA Y SINDROMES EPILEPTICOS IDIOPATICOS GENERALIZADOS"
@@ -2338,16 +2179,19 @@ module.exports = {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL CORAZON"
       },
       {
+        "nombre": "MALFORMACION CONGENITA DEL OIDO QUE CAUSA ALTERACION DE LA AUDICION, SIN OTRA ESPECIFICACION"
+      },
+      {
+        "nombre": "LESION CEREBRAL ANOXICA, NO CLASIFICADA EN OTRA PARTE"
+      },
+      {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR COMPLICACIONES MATERNAS NO ESPECIFICADAS DEL EMBARAZO"
       },
       {
-        "nombre": "SINDROME DE EDWARDS NO ESPECIFICADO"
-      },
-      {
-        "nombre": "DEFORMIDAD ADQUIRIDA DEL MIEMBRO NO ESPECIFICADA"
-      },
-      {
         "nombre": "FRACTURA DE LA DIAFISIS DEL FEMUR"
+      },
+      {
+        "nombre": "TRASTORNO QUE AFECTA AL MECANISMO DE LA INMUNIDAD, NO ESPECIFICADO"
       },
       {
         "nombre": "OTRAS DEFORMIDADES ADQUIRIDAS DE LOS MIEMBROS"
@@ -2362,16 +2206,13 @@ module.exports = {
         "nombre": "MIOPATIA EN ENFERMEDADES INFECCIOSAS Y PARASITARIAS CLASIFICADAS EN OTRA PARTE*"
       },
       {
-        "nombre": "DEGENERACION DEL SISTEMA NERVIOSO NO ESPECIFICADA"
-      },
-      {
-        "nombre": "DESNUTRICION PROTEICOCALORICA NO ESPECIFICADA"
+        "nombre": "OTROS TRASTORNOS DE LOS TEJIDOS BLANDOS, NO CLASIFICADOS EN OTRA PARTE"
       },
       {
         "nombre": "ESTENOSIS MITRAL CONGENITA"
       },
       {
-        "nombre": "OTRAS ANOMALIAS CROMOSOMICAS NO CLASIFICADAS EN OTRA PARTE"
+        "nombre": "OTRAS TRISOMIAS Y TRISOMIAS PARCIALES DE LOS AUTOSOMAS, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "DEFORMIDAD CONGENITA DE LA RODILLA"
@@ -2386,13 +2227,10 @@ module.exports = {
         "nombre": "CONCUSION Y EDEMA DE LA MEDULA ESPINAL CERVICAL"
       },
       {
-        "nombre": "TRASTORNO NEUROMUSCULAR NO ESPECIFICADO"
+        "nombre": "MONOPLEJIA, NO ESPECIFICADA"
       },
       {
-        "nombre": "HIPOACUSIA MIXTA CONDUCTIVA Y NEUROSENSORIAL BILATERAL"
-      },
-      {
-        "nombre": "MALFORMACIONES CONGENITAS DEL PALADAR NO CLASIFICADAS EN OTRA PARTE"
+        "nombre": "HEMORRAGIA INTRAVENTRICULAR (NO TRAUMATICA) GRADO 3, DEL FETO Y DEL RECIEN NACIDO"
       },
       {
         "nombre": "PARALISIS CEREBRAL ATAXICA"
@@ -2404,13 +2242,16 @@ module.exports = {
         "nombre": "TRAUMATISMO CEREBRAL FOCAL"
       },
       {
-        "nombre": "DEFECTO POR REDUCCION DEL MIEMBRO SUPERIOR NO ESPECIFICADO"
+        "nombre": "MALFORMACION CONGENITA DEL SISTEMA OSTEOMUSCULAR, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "QUEMADURA DE LA CADERA Y MIEMBRO INFERIOR, DE TERCER GRADO, EXCEPTO TOBILLO Y PIE"
       },
       {
         "nombre": "OTRAS FALLAS DE COORDINACION"
       },
       {
-        "nombre": "TUMOR MALIGNO DE LOS NERVIOS PERIFERICOS DEL MIEMBRO SUPERIOR INCLUIDO EL HOMBRO"
+        "nombre": "VEJIGA NEUROPATICA NO INHIBIDA, NO CLASIFICADA EN OTRA PARTE"
       },
       {
         "nombre": "OTRAS ENFERMEDADES DE LA LARINGE"
@@ -2419,7 +2260,7 @@ module.exports = {
         "nombre": "PARALISIS DEL NERVIO MOTOR OCULAR COMUN [III PAR]"
       },
       {
-        "nombre": "TRISOMIA 21 POR TRANSLOCACION"
+        "nombre": "RETRASO MENTAL MODERADO,  CON DETERIORO DEL COMPORTAMIENTO NULO O MINIMO"
       },
       {
         "nombre": "DEFECTO DEL TABIQUE AURICULOVENTRICULAR"
@@ -2443,6 +2284,12 @@ module.exports = {
         "nombre": "MIGRA¥A COMPLICADA"
       },
       {
+        "nombre": "TRASTORNO DEL ENCEFALO, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "DEFORMIDADES OSTEOMUSCULARES CONGENITAS DE LA CABEZA, DE LA CARA, DE LA COLUMNA VERTEBRAL Y DEL TORAX"
+      },
+      {
         "nombre": "QUISTES CEREBRALES CONGENITOS"
       },
       {
@@ -2453,9 +2300,6 @@ module.exports = {
       },
       {
         "nombre": "TRASTORNO DEL LENGUAJE EXPRESIVO"
-      },
-      {
-        "nombre": "TRISOMIA 21 POR FALTA DE DISYUNCION MEIOTICA"
       },
       {
         "nombre": "FISTULA RECTOVAGINAL CONGENITA"
@@ -2473,22 +2317,22 @@ module.exports = {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS DE LOS TABIQUES CARDIACOS"
       },
       {
-        "nombre": "VERTEBRA COLAPSADA NO CLASIFICADA EN OTRA PARTE"
-      },
-      {
         "nombre": "DEFICIENCIA HEREDITARIA DEL FACTOR VIII"
       },
       {
         "nombre": "ARTRITIS PIOGENA"
       },
       {
+        "nombre": "DESMIELINIZACION DISEMINADA AGUDA, SIN OTRA ESPECIFICACION"
+      },
+      {
         "nombre": "FRACTURA DE OTRAS VERTEBRAS CERVICALES ESPECIFICADAS"
       },
       {
-        "nombre": "OTRAS ENFERMEDADES DESMIELINIZANTES DEL SISTEMA NERVIOSO CENTRAL ESPECIFICADAS"
+        "nombre": "TRASTORNO ESPECIFICO DE LA PRONUNCIACION"
       },
       {
-        "nombre": "TRASTORNO ESPECIFICO DE LA PRONUNCIACION"
+        "nombre": "OTROS TRAUMATISMOS DE MIEMBRO SUPERIOR, NIVEL NO ESPECIFICADO"
       },
       {
         "nombre": "AFECCION NO ESPECIFICADA ORIGINADA EN EL PERIODO PERINATAL"
@@ -2497,7 +2341,10 @@ module.exports = {
         "nombre": "TRASTORNO DE ANSIEDAD GENERALIZADA"
       },
       {
-        "nombre": "OSTEOCONDROPATIA NO ESPECIFICADA"
+        "nombre": "CARDIOMIOPATIA, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "OTRAS ENFERMEDADES DESMIELINIZANTES DEL SISTEMA NERVIOSO CENTRAL, ESPECIFICADAS"
       },
       {
         "nombre": "OTROS RECIEN NACIDOS PRETERMINO"
@@ -2509,13 +2356,13 @@ module.exports = {
         "nombre": "OTRAS MUCOPOLISACARIDOSIS"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DEL OIDO QUE CAUSA ALTERACION DE LA AUDICION SIN OTRA ESPECIFICACION"
-      },
-      {
         "nombre": "PTERIGION"
       },
       {
         "nombre": "CUADRIPLEJIA FLACIDA"
+      },
+      {
+        "nombre": "TRISOMIA 21, MOSAICO (POR FALTA DE DISYUNCION MITOTICA)"
       },
       {
         "nombre": "TRASTORNO NO ESPECIFICADO DEL TONO MUSCULAR EN EL RECIEN NACIDO"
@@ -2524,22 +2371,19 @@ module.exports = {
         "nombre": "NECROSIS ASEPTICA IDIOPATICA OSEA"
       },
       {
-        "nombre": "QUEMADURA DEL HOMBRO Y MIEMBRO SUPERIOR DE SEGUNDO GRADO EXCEPTO DE LA MU¥ECA Y DE LA MANO"
+        "nombre": "DESARREGLO ARTICULAR, NO ESPECIFICADO"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DEL CORAZON NO ESPECIFICADA"
-      },
-      {
-        "nombre": "HEMIPLEJIA NO ESPECIFICADA"
-      },
-      {
-        "nombre": "OTROS TRAUMATISMOS DE MIEMBRO SUPERIOR NIVEL NO ESPECIFICADO"
+        "nombre": "DESNUTRICION PROTEICOCALORICA, NO ESPECIFICADA"
       },
       {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS ESPECIFICADAS DE LOS HUESOS DEL CRANEO Y DE LA CARA"
       },
       {
-        "nombre": "ATAXIA HEREDITARIA NO ESPECIFICADA"
+        "nombre": "TRAUMA OBSTETRICO, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "LUXACION DEL CODO, NO ESPECIFICADA"
       },
       {
         "nombre": "PARALISIS CEREBRAL ESPASTICA"
@@ -2551,13 +2395,13 @@ module.exports = {
         "nombre": "SUPRESION DEL BRAZO CORTO DEL CROMOSOMA 4"
       },
       {
-        "nombre": "OTRAS ENFERMEDADES DEGENERATIVAS DEL SISTEMA NERVIOSO NO CLASIFICADAS EN OTRA PARTE"
-      },
-      {
         "nombre": "OTRAS ENFERMEDADES CARDIOPULMONARES"
       },
       {
-        "nombre": "TRAUMATISMO SUPERFICIAL DE LA CABEZA PARTE NO ESPECIFICADA"
+        "nombre": "TRASTORNO LOCALIZADO DEL TEJIDO CONJUNTIVO, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "QUEMADURA DEL TRONCO, DE SEGUNDO GRADO"
       },
       {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR TRASTORNOS NUTRICIONALES DE LA MADRE"
@@ -2566,28 +2410,28 @@ module.exports = {
         "nombre": "DISPLASIA ESPONDILOEPIFISARIA"
       },
       {
-        "nombre": "ASFIXIA DEL NACIMIENTO LEVE Y MODERADA"
+        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL INTESTINO, ESPECIFICADAS"
       },
       {
         "nombre": "RETRASO MENTAL LEVE"
       },
       {
-        "nombre": "SUBLUXACION CONGENITA DE LA CADERA NO ESPECIFICADA"
-      },
-      {
-        "nombre": "QUEMADURA DE LA CADERA Y MIEMBRO INFERIOR DE TERCER GRADO EXCEPTO TOBILLO Y PIE"
-      },
-      {
         "nombre": "(OSTEO)ARTROSIS EROSIVA"
+      },
+      {
+        "nombre": "PARALISIS CEREBRAL INFANTIL, SIN OTRA ESPECIFICACION"
+      },
+      {
+        "nombre": "OTRAS ANOMALIAS DE LOS CROMOSOMAS SEXUALES, CON FENOTIPO FEMENINO, NO CLASIFICADAS EN OTRA PARTE"
+      },
+      {
+        "nombre": "ENANISMO, NO CLASIFICADO EN OTRA PARTE"
       },
       {
         "nombre": "AUSENCIA ADQUIRIDA DE MIEMBROS"
       },
       {
         "nombre": "LUPUS ERITEMATOSO"
-      },
-      {
-        "nombre": "FISURA DEL PALADAR DURO CON LABIO LEPORINO UNILATERAL"
       },
       {
         "nombre": "LESION DEL NERVIO RADIAL"
@@ -2602,9 +2446,6 @@ module.exports = {
         "nombre": "OTRAS HIPOGLICEMIAS NEONATALES"
       },
       {
-        "nombre": "DEFORMIDAD CONGENITA DE LA CADERA NO ESPECIFICADA"
-      },
-      {
         "nombre": "TRAUMATISMOS DE NERVIOS Y MEDULA ESPINAL QUE EFECTAN OTRAS MULTIPLES REGIONES DEL CUERPO"
       },
       {
@@ -2612,9 +2453,6 @@ module.exports = {
       },
       {
         "nombre": "INFLAMACION CORIORRETINIANA EN ENFERMEDADES INFECCIOSAS Y PARASITARIAS CLASIFICADAS EN OTRA PARTE*"
-      },
-      {
-        "nombre": "RETRASO MENTAL GRAVE CON DETERIORO DEL COMPORTAMIENTO DE GRADO NO ESPECIFICADO"
       },
       {
         "nombre": "OSTEOGENESIS IMPERFECTA"
@@ -2629,19 +2467,16 @@ module.exports = {
         "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR EMBARAZO MULTIPLE"
       },
       {
-        "nombre": "QUEMADURA DEL TRONCO DE SEGUNDO GRADO"
+        "nombre": "DEFECTO POR REDUCCION LONGITUDINAL DE LA TIBIA"
       },
       {
-        "nombre": "DEFECTO POR REDUCCION LONGITUDINAL DE LA TIBIA"
+        "nombre": "INCONTINENCIA URINARIA, NO ESPECIFICADA"
       },
       {
         "nombre": "CURVATURA CONGENITA DEL FEMUR"
       },
       {
         "nombre": "CONTROL DE SALUD DE RUTINA DEL NI¤O"
-      },
-      {
-        "nombre": "GLAUCOMA NO ESPECIFICADO"
       },
       {
         "nombre": "HIPOXIA INTRAUTERINA"
@@ -2653,16 +2488,10 @@ module.exports = {
         "nombre": "PIE PLANO CONGENITO"
       },
       {
-        "nombre": "DISPARO DE OTRAS ARMAS DE FUEGO Y LAS NO ESPECIFICADAS"
-      },
-      {
         "nombre": "COXA PLANA"
       },
       {
         "nombre": "AMPUTACION TRAUMATICA DE LA ARTICULACION DE LA CADERA"
-      },
-      {
-        "nombre": "TRASTORNO DEL DESARROLLO DE LAS HABILIDADES ESCOLARES NO ESPECIFICADO"
       },
       {
         "nombre": "OTROS TIPOS DE RETRASO MENTAL"
@@ -2674,13 +2503,19 @@ module.exports = {
         "nombre": "QUISTE CEREBRAL"
       },
       {
-        "nombre": "RETRASO MENTAL LEVE CON DETERIORO DEL COMPORTAMIENTO DE GRADO NO ESPECIFICADO"
+        "nombre": "SINDROME DE EDWARDS, NO ESPECIFICADO"
       },
       {
         "nombre": "CONSOLIDACION DEFECTUOSA DE FRACTURA"
       },
       {
+        "nombre": "ENFERMEDAD CEREBROVASCULAR, NO ESPECIFICADA"
+      },
+      {
         "nombre": "OTROS TRASTORNOS NEUROMUSCULARES ESPECIFICADOS"
+      },
+      {
+        "nombre": "AMPUTACION DEL PIE, NIVEL NO ESPECIFICADO"
       },
       {
         "nombre": "OTRAS ALTERACIONES CEREBRALES ESPECIFICADAS DEL RECIEN NACIDO"
@@ -2692,37 +2527,22 @@ module.exports = {
         "nombre": "DEGENERACION COMBINADA SUBAGUDA EN LA MEDULA ESPINAL EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DE LA CARA Y DEL CUELLO NO ESPECIFICADA"
-      },
-      {
-        "nombre": "ENCEFALOCELE NO ESPECIFICADO"
-      },
-      {
-        "nombre": "MENINGITIS NO ESPECIFICADA"
-      },
-      {
-        "nombre": "ENCEFALITIS MIELITIS Y ENCEFALOMIELITIS EN OTRAS ENFERMEDADES INFECCIOSAS Y PARASITARIAS CLASIF EN OTRA PARTE*"
-      },
-      {
         "nombre": "AMPUTACION TRAUMATICA A NIVEL ENTRE EL HOMBRO Y EL CODO"
       },
       {
         "nombre": "OTRAS ESCOLIOSIS IDIOPATICAS"
       },
       {
-        "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL SISTEMA NERVIOSO ESPECIFICADAS"
-      },
-      {
         "nombre": "DISPLASIA POLIOSTOTICA FIBROSA"
-      },
-      {
-        "nombre": "TRASTORNO LOCALIZADO DEL TEJIDO CONJUNTIVO NO ESPECIFICADO"
       },
       {
         "nombre": "LONGITUD DESIGUAL DE LOS MIEMBROS (ADQUIRIDA)"
       },
       {
         "nombre": "DEFORMIDADES CONGENITAS DE LOS PIES"
+      },
+      {
+        "nombre": "ASFIXIA DEL NACIMIENTO, LEVE Y MODERADA"
       },
       {
         "nombre": "ESCLERODERMA LOCALIZADO [MORFEA]"
@@ -2734,13 +2554,16 @@ module.exports = {
         "nombre": "SINDROME DE DOWN"
       },
       {
-        "nombre": "SINDROME PARALITICO NO ESPECIFICADO"
+        "nombre": "MALFORMACION CONGENITA DE LA MEDULA ESPINAL, NO ESPECIFICADA"
       },
       {
         "nombre": "INCOMPATIBILIDAD ABO DEL FETO Y DEL RECIEN NACIDO"
       },
       {
-        "nombre": "GEMELOS AMBOS NACIDOS VIVOS"
+        "nombre": "RETRASO MENTAL, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "TRASTORNOS RELACIONADOS CON DURACION CORTA DE LA GESTACION Y CON BAJO PESO AL NACER, NO CLASIF. EN OTRA PARTE"
       },
       {
         "nombre": "OTRAS ESFINGOLIPIDOSIS"
@@ -2752,34 +2575,37 @@ module.exports = {
         "nombre": "INSUFICIENCIA RESPIRATORIA CRONICA"
       },
       {
-        "nombre": "PARALISIS CEREBRAL INFANTIL SIN OTRA ESPECIFICACION"
-      },
-      {
         "nombre": "DISFAGIA"
       },
       {
-        "nombre": "QUEMADURA DE SEGUNDO GRADO REGION DEL CUERPO NO ESPECIFICADA"
+        "nombre": "ENCEFALITIS VIRAL, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "DEFORMIDAD CONGENITA DE LOS PIES, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "POLIDACTILIA, NO ESPECIFICADA"
       },
       {
         "nombre": "OTRAS MALFORMACIONES CONGENITAS DEL SISTEMA DIGESTIVO"
       },
       {
-        "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR OTRO PROCEDIMIENTO MEDICO EN LA MADRE NO CLASIFICADO EN OTRA PARTE"
+        "nombre": "ALTERACIONES DEL HABLA, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
-        "nombre": "TRISOMIA 21 MOSAICO (POR FALTA DE DISYUNCION MITOTICA)"
+        "nombre": "MALFORMACION CONGENITA DEL SISTEMA NERVIOSO, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "DEFECTO POR REDUCCION DEL MIEMBRO INFERIOR, NO ESPECIFICADO"
       },
       {
         "nombre": "GASTROSTOMIA"
       },
       {
-        "nombre": "CEGUERA DE UN OJO VISION SUBNORMAL DEL OTRO"
-      },
-      {
-        "nombre": "HIPOTIROIDISMO NO ESPECIFICADO"
-      },
-      {
         "nombre": "DEDOS DE LA MANO DEFORMES"
+      },
+      {
+        "nombre": "MALFORMACIONES CONGENITAS MULTIPLES, NO CLASIFICADAS EN OTRA PARTE"
       },
       {
         "nombre": "ENCEFALOCELE"
@@ -2806,9 +2632,6 @@ module.exports = {
         "nombre": "AMPUTACION TRAUMATICA DEL HOMBRO Y DEL BRAZO"
       },
       {
-        "nombre": "OTRAS ENFERMEDADES ESPECIFICADAS Y AFECCIONES QUE COMPLICAN EL EMBARAZO EL PARTO Y EL PUERPERIO"
-      },
-      {
         "nombre": "POLINEUROPATIA EN OTRAS ENFERMEDADES CLASIFICADAS EN OTRA PARTE*"
       },
       {
@@ -2816,6 +2639,9 @@ module.exports = {
       },
       {
         "nombre": "TRAUMATISMO DEL NERVIO RADIAL A NIVEL DEL BRAZO"
+      },
+      {
+        "nombre": "TRAUMATISMO DE LA MEDULA ESPINAL, NIVEL NO ESPECIFICADO"
       },
       {
         "nombre": "FRACTURA SUBTROCANTERIANA"
@@ -2827,16 +2653,13 @@ module.exports = {
         "nombre": "SEPSIS BACTERIANA DEL RECIEN NACIDO"
       },
       {
-        "nombre": "MALFORMACION CONGENITA NO ESPECIFICADA"
+        "nombre": "OSTEOCONDROSIS JUVENIL, NO ESPECIFICADA"
       },
       {
         "nombre": "LUXACION DE LA CADERA"
       },
       {
-        "nombre": "OTRAS TRISOMIAS Y TRISOMIAS PARCIALES DE LOS AUTOSOMAS ESPECIFICADAS"
-      },
-      {
-        "nombre": "LUXACIONES TORCEDURAS Y ESQUINCES QUE AFECTAN MULTIPLES REGIONES DEL (DE LOS) MIEMBRO(S) INFERIOR(ES)"
+        "nombre": "MONONEUROPATIA DEL MIEMBRO INFERIOR, SIN OTRA ESPECIFICACION"
       },
       {
         "nombre": "AUSENCIA CONGENITA DEL ANTEBRAZO Y DE LA MANO"
@@ -2845,19 +2668,31 @@ module.exports = {
         "nombre": "INFECCIONES DIRECTAS DE LA ARTICULACION EN ENFERMEDADES INFECCIOSAS Y PARASITARIAS CLASIFICADAS EN OTRA PARTE"
       },
       {
+        "nombre": "ARTRITIS PIOGENA, NO ESPECIFICADA"
+      },
+      {
         "nombre": "ATAXIA HEREDITARIA"
       },
       {
         "nombre": "HEMARTROSIS"
       },
       {
+        "nombre": "OTRAS DEFORMIDADES CONGENITAS OSTEOMUSCULARES, ESPECIFICADAS"
+      },
+      {
         "nombre": "TORTICOLIS"
+      },
+      {
+        "nombre": "MALFORMACION CONGENITA DE MIEMBRO(S), NO ESPECIFICADA"
       },
       {
         "nombre": "ARTROSIS SECUNDARIA MULTIPLE"
       },
       {
-        "nombre": "MALFORMACION CONGENITA DE MIEMBRO(S) NO ESPECIFICADA"
+        "nombre": "LESION BIOMECANICA, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "ALTERACION VISUAL, NO ESPECIFICADA"
       },
       {
         "nombre": "GLAUCOMA CONGENITO"
@@ -2872,13 +2707,10 @@ module.exports = {
         "nombre": "SECUELAS DE INFARTO CEREBRAL"
       },
       {
-        "nombre": "MANO O PIE EN GARRA O EN TALIPES PIE EQUINOVARO O ZAMBO ADQUIRIDOS"
-      },
-      {
         "nombre": "DEFECTO POR REDUCCION LONGITUDINAL DEL FEMUR"
       },
       {
-        "nombre": "VEJIGA NEUROPATICA FLACIDA NO CLASIFICADA EN OTRA PARTE"
+        "nombre": "ENFERMEDAD DE LA MEDULA ESPINAL, NO ESPECIFICADA"
       },
       {
         "nombre": "OTROS TRASTORNOS GENERALIZADOS DEL DESARROLLO"
@@ -2888,6 +2720,12 @@ module.exports = {
       },
       {
         "nombre": "AMPUTACION TRAUMATICA A NIVEL DE LA RODILLA"
+      },
+      {
+        "nombre": "OSTEOCONDROSIS JUVENIL DE LA CADERA Y DE LA PELVIS, SIN OTRA ESPECIFICACION"
+      },
+      {
+        "nombre": "RETRASO MENTAL GRAVE, CON DETERIORO DEL COMPORTAMIENTO NULO O MINIMO"
       },
       {
         "nombre": "MIELOPATIA EN ENFERMEDADES CLASIFICADAS EN OTRA PARTE*"
@@ -2902,25 +2740,25 @@ module.exports = {
         "nombre": "MARCHA PARALITICA"
       },
       {
+        "nombre": "FRACTURA DE MIEMBRO INFERIOR, NIVEL NO ESPECIFICADO"
+      },
+      {
         "nombre": "OTRAS HEMORRAGIAS INTRACRANEALES (NO TRAUMATICAS) DEL FETO Y DEL RECIEN NACIDO"
       },
       {
         "nombre": "AUSENCIA CONGENITA DE LA MANO Y EL (LOS) DEDO(S)"
       },
       {
-        "nombre": "SINDROME DE KLINEFELTER NO ESPECIFICADO"
-      },
-      {
-        "nombre": "TRASTORNO CARDIOVASCULAR NO ESPECIFICADO ORIGINADO EN EL PERIODO PERINATAL"
-      },
-      {
-        "nombre": "RETRASO MENTAL NO ESPECIFICADO CON DETERIORO DEL COMPORTAMIENTO DE GRADO NO ESPECIFICADO"
-      },
-      {
-        "nombre": "ALTERACIONES DEL HABLA NO CLASIFICADAS EN OTRA PARTE"
+        "nombre": "FRACTURA DE LA PIERNA, INCLUSIVE EL TOBILLO"
       },
       {
         "nombre": "AMPUTACION TRAUMATICA DE PARTE NO ESPECIFICADA DE LA CABEZA"
+      },
+      {
+        "nombre": "GONARTROSIS, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "MALFORMACION CONGENITA DE LAS CAMARAS CARDIACAS Y SUS CONEXIONES, NO ESPECIFICADA"
       },
       {
         "nombre": "TRAUMATISMO DE MULTIPLES TENDONES Y MUSCULOS A NIVEL DE LA PIERNA"
@@ -2929,13 +2767,175 @@ module.exports = {
         "nombre": "SECUELAS DE LA DESNUTRICION Y DE OTRAS DEFICIENCIAS NUTRICIONALES"
       },
       {
+        "nombre": "RETRASO MENTAL LEVE, CON DETERIORO DEL COMPORTAMIENTO NULO O MINIMO"
+      },
+      {
         "nombre": "AUSENCIA COMPLETA DE MIEMBRO(S) NO ESPECIFICADO(S)"
       },
       {
-        "nombre": "RETRASO MENTAL LEVE CON DETERIORO DEL COMPORTAMIENTO NULO O MINIMO"
+        "nombre": "TRASTORNO NEUROMUSCULAR, NO ESPECIFICADO"
       },
       {
-        "nombre": "MALFORMACIONES CONGENITAS DEL SISTEMA OSTEOMUSCULAR NO CLASIFICADAS EN OTRA PARTE"
+        "nombre": "RETRASO MENTAL MODERADO, CON DETERIORO DEL COMPORTAMIENTO DE GRADO NO ESPECIFICADO"
+      },
+      {
+        "nombre": "AMPUTACION TRAUMATICA DE LA PIERNA"
+      },
+      {
+        "nombre": "OTRAS HEMORRAGIAS GASTROINTESTINALES NEONATALES"
+      },
+      {
+        "nombre": "OTROS RECIEN NACIDOS CON SOBREPESO PARA LA EDAD GESTACIONAL"
+      },
+      {
+        "nombre": "ISQUEMIA CEREBRAL TRANSITORIA, SIN OTRA ESPECIFICACION"
+      },
+      {
+        "nombre": "DEFECTO DEL TABIQUE AURICULAR"
+      },
+      {
+        "nombre": "SINDROME DE REYE"
+      },
+      {
+        "nombre": "CEGUERA DE AMBOS OJOS"
+      },
+      {
+        "nombre": "RI¥ON LOBULADO, FUSIONADO Y EN HERRADURA"
+      },
+      {
+        "nombre": "OTRAS SUPRESIONES DE LOS AUTOSOMAS"
+      },
+      {
+        "nombre": "LIPOFUSCINOSIS CEROIDE NEURONAL"
+      },
+      {
+        "nombre": "OTRAS MALFORMACIONES CONGENITAS DE LA CARA Y DEL CUELLO"
+      },
+      {
+        "nombre": "HEMIPLEJIA ESPASTICA"
+      },
+      {
+        "nombre": "ENFERMEDAD DE HUNTINGTON"
+      },
+      {
+        "nombre": "SECUELAS DE TRAUMATISMOS DE LA CABEZA"
+      },
+      {
+        "nombre": "LUXACIONES, TORCEDURAS Y ESQUINCES QUE AFECTAN MULTIPLES REGIONES DEL (DE LOS) MIEMBRO(S) INFERIOR(ES)"
+      },
+      {
+        "nombre": "LABIO LEPORINO, BILATERAL"
+      },
+      {
+        "nombre": "CATARATA CONGENITA"
+      },
+      {
+        "nombre": "DOLOR, NO CLASIFICADO EN OTRA PARTE"
+      },
+      {
+        "nombre": "LUMBAGO NO ESPECIFICADO"
+      },
+      {
+        "nombre": "TORAX EXCAVADO"
+      },
+      {
+        "nombre": "FETO Y R\/N AFECTADOS POR CONDICIONES DE LA MADRE NO NECESARIAMENTE RELACIONADAS CON EL EMBARAZO PRESENTE"
+      },
+      {
+        "nombre": "HIDROCEFALO, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "TRASTORNO DE LA CONDUCTA, NO ESPECIFICADO"
+      },
+      {
+        "nombre": "DEFORMIDAD EN FLEXION"
+      },
+      {
+        "nombre": "OTRAS DISFUNCIONES NEUROMUSCULARES DE LA VEJIGA"
+      },
+      {
+        "nombre": "SUBLUXACION CONGENITA DE LA CADERA, UNILATERAL"
+      },
+      {
+        "nombre": "SINDROME DE FATIGA POSTVIRAL"
+      },
+      {
+        "nombre": "HIPOGLICEMIA, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "FRACTURA DE OTROS HUESOS METACARPIANOS"
+      },
+      {
+        "nombre": "TALIPES CALCANEOVALGUS"
+      },
+      {
+        "nombre": "AUSENCIA CONGENITA COMPLETA DEL (DE LOS) MIEMBRO(S) INFERIOR(ES)"
+      },
+      {
+        "nombre": "TETRALOGIA DE FALLOT"
+      },
+      {
+        "nombre": "SINDROME DE DI GEORGE"
+      },
+      {
+        "nombre": "SECUELAS DE TRAUMATISMOS DE MIEMBRO INFERIOR"
+      },
+      {
+        "nombre": "OTRAS DEFORMIDADES CONGENITAS DE LA CADERA"
+      },
+      {
+        "nombre": "AMPUTACION TRAUMATICA DE MIEMBRO INFERIOR, NIVEL NO ESPECIFICADO"
+      },
+      {
+        "nombre": "PLAGIOCEFALIA"
+      },
+      {
+        "nombre": "MOVIMIENTOS INVOLUNTARIOS ANORMALES"
+      },
+      {
+        "nombre": "PARAPLEJIA FLACIDA"
+      },
+      {
+        "nombre": "INFECCION NO ESPECIFICADA DE LAS VIAS URINARIAS EN EL EMBARAZO"
+      },
+      {
+        "nombre": "ESTRABISMO CONCOMITANTE CONVERGENTE"
+      },
+      {
+        "nombre": "ACONDROPLASIA"
+      },
+      {
+        "nombre": "MIOPATIA MITOCONDRICA, NO CLASIFICADA EN OTRA PARTE"
+      },
+      {
+        "nombre": "FALTA DEL DESARROLLO FISIOLOGICO NORMAL ESPERADO, SIN OTRA ESPECIFICACION"
+      },
+      {
+        "nombre": "OTROS TRASTORNOS DEL SISTEMA NERVIOSO, NO CLASIFICADOS EN OTRA PARTE"
+      },
+      {
+        "nombre": "FETO Y RECIEN NACIDO AFECTADOS POR PARTO PRECIPITADO"
+      },
+      {
+        "nombre": "ATAXIA HEREDITARIA, NO ESPECIFICADA"
+      },
+      {
+        "nombre": "FRACTURA DE OTRAS PARTES DEL ANTEBRAZO"
+      },
+      {
+        "nombre": "OTRAS ENFERMEDADES DE LA VALVULA MITRAL"
+      },
+      {
+        "nombre": "SINDROMES DE MALFORMACIONES CONGENITAS QUE AFECTAN PRINCIPALMENTE LA APARIENCIA FACIAL"
+      },
+      {
+        "nombre": "OTROS DEFECTOS POR REDUCCION DE MIEMBRO(S) NO ESPECIFICADO(S)"
+      },
+      {
+        "nombre": "INDIVIDUOS CON HETEROCROMATINA MARCADORA"
+      },
+      {
+        "nombre": "RETRASO MENTAL GRAVE, CON DETERIORO DEL COMPORTAMIENTO DE GRADO NO ESPECIFICADO"
       }
     ], {});
   },
