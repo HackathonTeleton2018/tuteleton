@@ -57,7 +57,7 @@ module.exports = (sequelize, Sequelize) => {
             allowNull: false
         }
     }, {
-        tableName: 'Metadata',
+        tableName: 'metadata',
         underscored: true
     });
 
