@@ -1,0 +1,16 @@
+<h1>Carga de información</h1>
+<form action="/admin/carga" method="POST" enctype="multipart/form-data">
+    <label>Institición de origen</label>
+    <select name="tipo">
+        <option value="Banamex">Banamex</option>
+        <option value="Farmacias del Ahorro">Farmacias del Ahorro</option>
+        <option value="Soriana">Soriana</option>
+        <option value="Telce">Telcel</option>
+        <option value="Telecomm">Telecomm</option>
+        <option value="Infinitum">Infinitum</option>
+        <option value="Telmex">Telmex</option>
+    </select>
+    <br>
+    <input type="file" name="archivo">
+    <input type="submit" value="Cargar">
+</form>
