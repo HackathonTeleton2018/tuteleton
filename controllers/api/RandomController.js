@@ -22,7 +22,8 @@ const obtenerPorcentaje = (don = false) => {
         ])
         .then(results => {
             let [minimoTotal, donativos] = results;
-            let porcentaje = roundToTwo((donativos * 100 / minimoTotal) * 100);
+            let porcentaje = roundToTwo((donativos / minimoTotal) * 100);
+
             if (don) return [porcentaje, donativos, minimoTotal];
             return porcentaje;
         });
