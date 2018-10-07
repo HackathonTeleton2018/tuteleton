@@ -72,7 +72,7 @@ module.exports = {
 
         return Consolidacion.infoDonacion()
             .then(data => {
-                return res.json(data);
+                return res.json({donativos: data});
             });
     }
 };
