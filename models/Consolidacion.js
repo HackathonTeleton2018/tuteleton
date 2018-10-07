@@ -43,6 +43,10 @@ module.exports = (sequelize, Sequelize) => {
         underscored: true
     });
 
+    Consolidacion.infoDonacion = (params = {}) => {
+        return Consolidacion.findAll(params);
+    };
+
     Consolidacion.agregarDonativos = (donativos = []) => {
         return Consolidacion.bulkCreate(donativos)
     }

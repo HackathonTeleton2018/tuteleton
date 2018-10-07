@@ -65,5 +65,14 @@ module.exports = {
                     crits: x
                 });
             });
+    },
+    donativos: (req, res, next) => {
+        let params = req.body;
+        params.raw = true;
+
+        return Consolidacion.infoDonacion()
+            .then(data => {
+                return res.json(data);
+            });
     }
 };

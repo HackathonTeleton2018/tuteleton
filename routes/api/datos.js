@@ -15,6 +15,13 @@ const routes = {
                 DatosController.crit
             ]
         }
+    },
+    "/donativos": {
+        POST: {
+            middleware: [
+                DatosController.donativos
+            ]
+        }
     }
 };
 
