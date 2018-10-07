@@ -3,37 +3,32 @@
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('consolidacion', {
+    return queryInterface.createTable('pacientes', {
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true
       },
-      origen: {
-        type: Sequelize.ENUM('Banamex', 'Farmacias del Ahorro', 'Soriana', 'Telcel', 'Telecomm', 'Infinitum', 'Telmex'),
+      noPaciente: {
+        field: 'no_paciente',
+        type: Sequelize.TEXT,
         allowNull: false
       },
-      donacionUnitaria: {
-        field: 'donacion_unitaria',
-        type: Sequelize.BOOLEAN,
+      nombre: {
+        type: Sequelize.TEXT,
         allowNull: false
       },
-      donacionMultiple: {
-        field: 'donacion_multiple',
-        type: Sequelize.INTEGER,
-        allowNull: true
-      },
-      fecha: {
-        type: Sequelize.DATEONLY,
-        allowNull: true
-      },
-      donativo: {
-        type: Sequelize.FLOAT,
-        allowNull: false
-      },
-      estado: {
+      edad: {
         type: Sequelize.TEXT,
         allowNull: true
+      },
+      enfermedad: {
+        type: Sequelize.TEXT,
+        allowNull: false,
+        references: {
+          model: 'enfermedades',
+          key: 'nombre'
+        }
       },
       createdAt: {
         type: Sequelize.DATE,
@@ -51,6 +46,6 @@ module.exports = {
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('consolidacion');
+    return queryInterface.dropTable('pacientes');
   }
 };

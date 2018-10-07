@@ -43,6 +43,10 @@ module.exports = (sequelize, Sequelize) => {
         underscored: true
     });
 
+    Consolidacion.agregarDonativos = (donativos = []) => {
+        return Consolidacion.bulkCreate(donativos)
+    }
+
     Consolidacion.contarDonativos = (params = {}) => {
         return Consolidacion.sum('donativo', params)
             .then(total => {
