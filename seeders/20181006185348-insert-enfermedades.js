@@ -787,7 +787,8 @@ module.exports = {
         "nombre": "NEUROPATIA HEREDITARIA E IDIOPATICA, SIN OTRA ESPECIFICACION"
       },
       {
-        "nombre": "CUADRIPLEJIA ESPASTICA"
+        "nombre": "CUADRIPLEJIA ESPASTICA",
+        "descripcion": "La cuadriplejia espástica, en la cual están paralizados los cuatro miembros y el tronco, a menudo junto con los músculos que controlan la boca y la lengua. Los niños con cuadriplejia espástica tienen discapacidades cognitivas y otros problemas."
       },
       {
         "nombre": "OTRAS ENFERMEDADES ESPECIFICADAS DE LA MEDULA ESPINAL"
@@ -862,7 +863,8 @@ module.exports = {
         "nombre": "SINDROME DE KLINEFELTER, NO ESPECIFICADO"
       },
       {
-        "nombre": "DISTROFIA MUSCULAR"
+        "nombre": "DISTROFIA MUSCULAR",
+        "descripcion": "La distrofia muscular es un grupo de más de 30 enfermedades hereditarias que causan debilidad muscular y pérdida de la masa muscular."
       },
       {
         "nombre": "MUCOPOLISACARIDOSIS NO ESPECIFICADA"
@@ -1792,7 +1794,8 @@ module.exports = {
         "nombre": "ANOMALIA DE LOS CROMOSOMAS SEXUALES, CON FENOTIPO FEMENINO, SIN OTRA ESPECIFICACION"
       },
       {
-        "nombre": "RETARDO DEL DESARROLLO"
+        "nombre": "RETARDO DEL DESARROLLO",
+        "descripcion": "Un retraso en el desarrollo ocurre cuando su hijo no alcanza indicadores importantes más o menos al mismo tiempo que otros niños de su misma edad"
       },
       {
         "nombre": "RETRASO MENTAL GRAVE"
@@ -2386,7 +2389,8 @@ module.exports = {
         "nombre": "LUXACION DEL CODO, NO ESPECIFICADA"
       },
       {
-        "nombre": "PARALISIS CEREBRAL ESPASTICA"
+        "nombre": "PARALISIS CEREBRAL ESPASTICA",
+        "descripcion": "Esta clase de parálisis cerebral encuentran dificultad para controlar algunos o todos sus músculos, que tienden a estirarse y debilitarse, y que a menudo son los que sostienen sus brazos, sus piernas o su cabeza."
       },
       {
         "nombre": "EPILEPSIA Y SINDR EPILEPT SINTOMAT RELACIONADOS CON LOCAL (FOCALES)(PARCIALES) Y CON ATAQUES PARCIALES SIMPLES"
@@ -2551,7 +2555,8 @@ module.exports = {
         "nombre": "PIE HENDIDO"
       },
       {
-        "nombre": "SINDROME DE DOWN"
+        "nombre": "SINDROME DE DOWN",
+        "descripcion": "El síndrome de Down se caracteriza por una apariencia física típica, discapacidad intelectual y retrasos en el desarrollo. Además, puede estar asociado con enfermedades cardíacas o de la glándula tiroides."
       },
       {
         "nombre": "MALFORMACION CONGENITA DE LA MEDULA ESPINAL, NO ESPECIFICADA"
@@ -2623,7 +2628,8 @@ module.exports = {
         "nombre": "TUMOR MALIGNO DE SITIOS NO ESPECIFICADOS"
       },
       {
-        "nombre": "PARALISIS CEREBRAL INFANTIL"
+        "nombre": "PARALISIS CEREBRAL INFANTIL",
+        "descripcion": "La parálisis cerebral es un trastorno del movimiento, el tono muscular o la postura que se debe al daño ocurrido al cerebro inmaduro y en desarrollo, con mayor frecuencia, antes del nacimiento."
       },
       {
         "nombre": "INSUFICIENCIA TRICUSPIDE"
