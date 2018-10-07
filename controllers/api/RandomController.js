@@ -15,7 +15,7 @@ const roundToTwo = number => {
     return +(Math.round(number + "e+2") + "e-2");
 };
 
-const obtenerPorcentaje = () => {
+const obtenerPorcentaje = (don = false) => {
     return Promise.all([
             Metadata.contarMontoMinimoTotal(),
             Consolidacion.contarDonativos()
@@ -23,16 +23,19 @@ const obtenerPorcentaje = () => {
         .then(results => {
             let [minimoTotal, donativos] = results;
             let porcentaje = roundToTwo((donativos * 100 / minimoTotal) * 100);
+            if (don) return [porcentaje, donativos];
             return porcentaje;
         });
 };
 
 module.exports = {
     general: (req, res, next) => {
-        return obtenerPorcentaje()
-            .then(porcentaje => {
+        return obtenerPorcentaje(true)
+            .then(results => {
+                let [porcentaje, donativos] = results;
                 return res.json({
-                    porcentaje: porcentaje
+                    porcentaje: porcentaje,
+                    donativos: donativos
                 });
             })
             .catch(err => {
@@ -60,7 +63,8 @@ module.exports = {
                     nombre: nombre,
                     pacientes: pacientes,
                     montoDestinado: actualParaCrit,
-                    beneficiados: beneficiados
+                    beneficiados: beneficiados,
+                    porcentajeBeneficiados: roundToTwo((beneficiados * 100 / pacientes))
                 });
             })
             .catch(err => {
