@@ -40,12 +40,12 @@ module.exports = {
                 infoPacientes.porcentajeBeneficiados = roundToTwo(infoPacientes.actuales * (porcentaje));
                 return res.json({
                     porcentaje: roundToTwo(porcentaje * 100),
-                    donativos: donativos,
+                    donativos: roundToTwo(donativos),
                     pacientesActuales: infoPacientes.actuales,
                     pacientesMaximo: infoPacientes.maximo,
                     porcentajeOcupacion: infoPacientes.porcentajeOcupacion,
                     porcentajeBeneficiados: infoPacientes.porcentajeBeneficiados,
-                    meta: meta
+                    meta: roundToTwo(meta)
                 });
             })
             .catch(err => {
