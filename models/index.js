@@ -38,16 +38,25 @@ Object.keys(db).forEach(modelName => {
 db.Pacientes.mayorAfectaciones()
   .then(pacientes => {
     let x = _.map(pacientes[0], paciente => {
-      return db.Egresados.findOne({
-          where: {
-            enfermedad: paciente.enfermedad
-          }
-        })
-        .then(egresado => {
+      return Promise.all([
+          db.Egresados.findOne({
+            where: {
+              enfermedad: paciente.enfermedad
+            }
+          }),
+          db.Egresados.count({
+            where: {
+              enfermedad: paciente.enfermedad
+            }
+          })
+        ])
+        .then(results => {
+          let [egresado, total] = results;
           if (!egresado) return null;
           paciente.nombreEgresado = egresado.nombre;
           paciente.logros = egresado.logros;
           paciente.testimonio = egresado.testimonio;
+          paciente.totalEgresados = total;
           return paciente;
         });
     });
@@ -55,7 +64,7 @@ db.Pacientes.mayorAfectaciones()
       .then(informacion => {
         global.informacion = _.compact(informacion);
       });
-    });
+  });
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

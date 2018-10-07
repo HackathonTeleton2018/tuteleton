@@ -23,7 +23,7 @@ const obtenerPorcentaje = (don = false) => {
         .then(results => {
             let [minimoTotal, donativos] = results;
             let porcentaje = roundToTwo((donativos * 100 / minimoTotal) * 100);
-            if (don) return [porcentaje, donativos];
+            if (don) return [porcentaje, donativos, minimoTotal];
             return porcentaje;
         });
 };
@@ -35,7 +35,7 @@ module.exports = {
                 Metadata.calculosPacientes()
             ])
             .then(results => {
-                let [[porcentaje, donativos], infoPacientes] = results;
+                let [[porcentaje, donativos, meta], infoPacientes] = results;
                 infoPacientes.porcentajeBeneficiados = roundToTwo(infoPacientes.actuales * (porcentaje / 100));
                 return res.json({
                     porcentaje: porcentaje,
@@ -43,7 +43,8 @@ module.exports = {
                     pacientesActuales: infoPacientes.actuales,
                     pacientesMaximo: infoPacientes.maximo,
                     porcentajeOcupacion: infoPacientes.porcentajeOcupacion,
-                    porcentajeBeneficiados: infoPacientes.porcentajeBeneficiados
+                    porcentajeBeneficiados: infoPacientes.porcentajeBeneficiados,
+                    meta: meta
                 });
             })
             .catch(err => {
