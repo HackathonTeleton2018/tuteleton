@@ -5,9 +5,28 @@ const SOURCE = 'tuteleton:controllers:api:RandomController';
 const debug = require('debug')(SOURCE);
 const models = require('../../models');
 const Enfermedades = models.Enfermedades;
+const Metadata = models.Metadata;
+const Consolidacion = models.Consolidacion;
 const ErrorController = require('../ErrorController');
 const _ = require('lodash');
 
+const roundToTwo = number => {
+    return +(Math.round(number + "e+2") + "e-2");
+};
+
+const obtenerPorcentaje = (don = false) => {
+    return Promise.all([
+            Metadata.contarMontoMinimoTotal(),
+            Consolidacion.contarDonativos()
+        ])
+        .then(results => {
+            let [minimoTotal, donativos] = results;
+            let porcentaje = roundToTwo((donativos / minimoTotal) * 100);
+
+            if (don) return [porcentaje, donativos, minimoTotal];
+            return porcentaje;
+        });
+};
 
 module.exports = {
     index: (req, res, next) => {
@@ -23,6 +42,27 @@ module.exports = {
                     err: err
                 });
                 error.serverError();
+            });
+    },
+    crit: (req, res, next) => {
+        return Promise.all([
+                Metadata.obtenerCrits(),
+                obtenerPorcentaje()
+            ])
+            .then(results => {
+                let [crits, porcentaje] = results;
+                let x = _.map(crits, crit => {
+                    return {
+                        nombre: crit.crit,
+                        beneficiados: roundToTwo((crit.capacidadActual * porcentaje)),
+                        porcentaje: porcentaje * 100,
+                        costoPaciente: crit.costoAnualPromedio,
+                        costoMaxOperaciones: roundToTwo(crit.costoAnualPromedio * crit.capacidadMaxima)
+                    };
+                });
+                return res.json({
+                    crits: x
+                });
             });
     }
 };

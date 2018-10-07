@@ -107,5 +107,11 @@ module.exports = (sequelize, Sequelize) => {
         });
     };
 
+    Metadata.obtenerCrits = () => {
+        return Metadata.findAll({
+                raw: true
+            });
+    };
+
     return Metadata;
 };

@@ -6,9 +6,16 @@ const debug = require('debug')(SOURCE);
 const express = require('express');
 const router = express.Router();
 const _ = require('lodash');
+const DatosController = require('../../controllers/api/DatosController');
 
 const routes = {
-
+    "/crit": {
+        GET: {
+            middleware: [
+                DatosController.crit
+            ]
+        }
+    }
 };
 
 _.forOwn(routes, function (methods, endpoint) {
