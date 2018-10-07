@@ -6,14 +6,13 @@ const debug = require('debug')(SOURCE);
 const express = require('express');
 const router = express.Router();
 const _ = require('lodash');
-const multer = require('multer');
-const storage = multer.memoryStorage();
+const RandomController = require('../../../controllers/api/RandomController');
 
 var routes = {
     "/": {
         GET: {
             middleware: [
-
+                RandomController.crit
             ]
         }
     }

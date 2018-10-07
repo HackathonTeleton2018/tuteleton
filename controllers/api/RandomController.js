@@ -8,15 +8,26 @@ const Metadata = models.Metadata;
 const Consolidacion = models.Consolidacion;
 const ErrorController = require('../ErrorController');
 
+const roundToTwo = number => {
+    return +(Math.round(number + "e+2") + "e-2");
+};
+
+const obtenerPorcentaje = () => {
+    return Promise.all([
+            Metadata.sum('minimoNecesario'),
+            Consolidacion.contarDonativos()
+        ])
+        .then(results => {
+            let [minimoTotal, donativos] = results;
+            let porcentaje = roundToTwo((donativos * 100 / minimoTotal) * 100);
+            return porcentaje;
+        });
+};
+
 module.exports = {
     general: (req, res, next) => {
-        return Promise.all([
-                Metadata.sum('minimoNecesario'),
-                Consolidacion.sum('donativo')
-            ])
-            .then(results => {
-                let [minimoTotal, donativos] = results;
-                let porcentaje = +(Math.round((((donativos * 100) / minimoTotal) * 100) + "e+2") + "e-2");
+        return obtenerPorcentaje()
+            .then(porcentaje => {
                 return res.json({
                     porcentaje: porcentaje
                 });
@@ -28,5 +39,33 @@ module.exports = {
                 });
                 return error.serverError();
             });
+    },
+    crit: (req, res, next) => {
+        return Promise.all([
+                obtenerPorcentaje(),
+                Metadata.randomCrit()
+            ])
+            .then(results => {
+                let [porcentaje, crit] = results;
+                let minimoCrit = crit.minimoNecesario;
+                let actualParaCrit = roundToTwo(minimoCrit * (porcentaje / 100));
+                let nombre = crit.crit;
+                let pacientes = crit.capacidadActual;
+                let costoPaciente = crit.costoAnualPromedio;
+                let beneficiados = roundToTwo(actualParaCrit / costoPaciente);
+                return res.json({
+                    nombre: nombre,
+                    pacientes: pacientes,
+                    montoDestinado: actualParaCrit,
+                    beneficiados: beneficiados
+                });
+            })
+            .catch(err => {
+                let error = new ErrorController(req, res, {
+                    source: `${SOURCE}#crit`,
+                    err: err
+                });
+                return error.serverError();
+            })
     }
 };
