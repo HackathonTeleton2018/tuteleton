@@ -22,7 +22,7 @@ const obtenerPorcentaje = (don = false) => {
         ])
         .then(results => {
             let [minimoTotal, donativos] = results;
-            let porcentaje = roundToTwo((donativos / minimoTotal) * 100);
+            let porcentaje = (donativos / minimoTotal);
 
             if (don) return [porcentaje, donativos, minimoTotal];
             return porcentaje;
@@ -37,9 +37,9 @@ module.exports = {
             ])
             .then(results => {
                 let [[porcentaje, donativos, meta], infoPacientes] = results;
-                infoPacientes.porcentajeBeneficiados = roundToTwo(infoPacientes.actuales * (porcentaje / 100));
+                infoPacientes.porcentajeBeneficiados = roundToTwo(infoPacientes.actuales * (porcentaje));
                 return res.json({
-                    porcentaje: porcentaje,
+                    porcentaje: roundToTwo(porcentaje * 100),
                     donativos: donativos,
                     pacientesActuales: infoPacientes.actuales,
                     pacientesMaximo: infoPacientes.maximo,
@@ -64,13 +64,13 @@ module.exports = {
             .then(results => {
                 let [porcentaje, crit] = results;
                 let minimoCrit = crit.minimoNecesario;
-                let actualParaCrit = roundToTwo(minimoCrit * (porcentaje / 100));
+                let actualParaCrit = roundToTwo(minimoCrit * (porcentaje));
                 let nombre = crit.crit;
                 let pacientes = crit.capacidadActual;
                 let costoPaciente = crit.costoAnualPromedio;
                 let beneficiados = roundToTwo(actualParaCrit / costoPaciente);
 
-                let recursosNecesariosDonacionFaltantes = minimoCrit - actualParaCrit
+                let recursosNecesariosDonacionFaltantes = minimoCrit - actualParaCrit;
 
               return res.json({
                     nombre: nombre,

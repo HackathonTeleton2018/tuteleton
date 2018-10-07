@@ -21,7 +21,7 @@ const obtenerPorcentaje = (don = false) => {
         ])
         .then(results => {
             let [minimoTotal, donativos] = results;
-            let porcentaje = roundToTwo((donativos / minimoTotal) * 100);
+            let porcentaje = (donativos / minimoTotal);
 
             if (don) return [porcentaje, donativos, minimoTotal];
             return porcentaje;
@@ -55,7 +55,7 @@ module.exports = {
                     return {
                         nombre: crit.crit,
                         beneficiados: roundToTwo((crit.capacidadActual * porcentaje)),
-                        porcentaje: porcentaje * 100,
+                        porcentaje: roundToTwo(porcentaje * 100),
                         costoPaciente: crit.costoAnualPromedio,
                         costoMaxOperaciones: roundToTwo(crit.costoAnualPromedio * crit.capacidadMaxima)
                     };
