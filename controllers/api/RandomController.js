@@ -69,12 +69,16 @@ module.exports = {
                 let pacientes = crit.capacidadActual;
                 let costoPaciente = crit.costoAnualPromedio;
                 let beneficiados = roundToTwo(actualParaCrit / costoPaciente);
-                return res.json({
+
+                let recursosNecesariosDonacionFaltantes = minimoCrit - actualParaCrit
+
+              return res.json({
                     nombre: nombre,
                     pacientes: pacientes,
                     montoDestinado: actualParaCrit,
                     beneficiados: beneficiados,
-                    porcentajeBeneficiados: roundToTwo((beneficiados * 100 / pacientes))
+                    porcentajeBeneficiados: roundToTwo((beneficiados * 100 / pacientes)),
+                    recursosNecesariosDonacionFaltantes: recursosNecesariosDonacionFaltantes,
                 });
             })
             .catch(err => {
