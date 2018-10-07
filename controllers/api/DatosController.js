@@ -57,7 +57,8 @@ module.exports = {
                         beneficiados: roundToTwo((crit.capacidadActual * porcentaje)),
                         porcentaje: roundToTwo(porcentaje * 100),
                         costoPaciente: crit.costoAnualPromedio,
-                        costoMaxOperaciones: roundToTwo(crit.costoAnualPromedio * crit.capacidadMaxima)
+                        costoMaxOperaciones: roundToTwo(crit.costoAnualPromedio * crit.capacidadMaxima),
+                        pacientesMaximo: crit.capacidadMaxima
                     };
                 });
                 return res.json({
