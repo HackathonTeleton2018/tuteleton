@@ -70,7 +70,7 @@ module.exports = {
         let params = req.body;
         params.raw = true;
 
-        return Consolidacion.infoDonacion()
+        return Consolidacion.infoDonacion(params)
             .then(data => {
                 return res.json({donativos: data});
             });
