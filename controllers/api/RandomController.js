@@ -30,12 +30,20 @@ const obtenerPorcentaje = (don = false) => {
 
 module.exports = {
     general: (req, res, next) => {
-        return obtenerPorcentaje(true)
+        return Promise.all([
+                obtenerPorcentaje(true),
+                Metadata.calculosPacientes()
+            ])
             .then(results => {
-                let [porcentaje, donativos] = results;
+                let [[porcentaje, donativos], infoPacientes] = results;
+                infoPacientes.porcentajeBeneficiados = roundToTwo(infoPacientes.actuales * (porcentaje / 100));
                 return res.json({
                     porcentaje: porcentaje,
-                    donativos: donativos
+                    donativos: donativos,
+                    pacientesActuales: infoPacientes.actuales,
+                    pacientesMaximo: infoPacientes.maximo,
+                    porcentajeOcupacion: infoPacientes.porcentajeOcupacion,
+                    porcentajeBeneficiados: infoPacientes.porcentajeBeneficiados
                 });
             })
             .catch(err => {

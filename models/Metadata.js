@@ -5,6 +5,10 @@ const SOURCE = 'tuteleton:models:Metadata';
 const debug = require('debug')(SOURCE);
 const _ = require('lodash');
 
+const roundToTwo = number => {
+    return +(Math.round(number + "e+2") + "e-2");
+};
+
 module.exports = (sequelize, Sequelize) => {
     const Metadata = sequelize.define('Metadata', {
         id: {
@@ -65,6 +69,27 @@ module.exports = (sequelize, Sequelize) => {
         return Metadata.sum('capacidadActual', params)
             .then(total => {
                 return total;
+            });
+    };
+
+    Metadata.contarPacientesMaximo = (params = {}) => {
+        return Metadata.sum('capacidadMaxima', params);
+    };
+
+    Metadata.calculosPacientes = (params = {}) => {
+        return Promise.all([
+                Metadata.contarPacientesActuales(),
+                Metadata.contarPacientesMaximo()
+            ])
+            .then(results => {
+                let [actuales, maximo] = results;
+                let porcentajeOcupacion = roundToTwo((actuales / maximo) * 100);
+                let x = {
+                    actuales: actuales,
+                    maximo: maximo,
+                    porcentajeOcupacion: porcentajeOcupacion
+                };
+                return x;
             });
     };
 
