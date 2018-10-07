@@ -6,7 +6,10 @@ const debug = require('debug')(SOURCE);
 const models = require('../../models');
 const Metadata = models.Metadata;
 const Consolidacion = models.Consolidacion;
+const Enfermedades = models.Enfermedades;
+const Pacientes = models.Pacientes;
 const ErrorController = require('../ErrorController');
+const _ = require('lodash');
 
 const roundToTwo = number => {
     return +(Math.round(number + "e+2") + "e-2");
@@ -14,7 +17,7 @@ const roundToTwo = number => {
 
 const obtenerPorcentaje = () => {
     return Promise.all([
-            Metadata.sum('minimoNecesario'),
+            Metadata.contarMontoMinimoTotal(),
             Consolidacion.contarDonativos()
         ])
         .then(results => {
@@ -66,6 +69,10 @@ module.exports = {
                     err: err
                 });
                 return error.serverError();
-            })
+            });
+    },
+    enfermedad: (req, res, next) => {
+        let randomEnfermedad = global.informacion[_.random(0, global.informacion.length)];
+        return res.json(randomEnfermedad);
     }
 };

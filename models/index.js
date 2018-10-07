@@ -10,6 +10,7 @@ const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
 const config = require(__dirname + '/../config/config.json')[env];
 const db = {};
+const _ = require('lodash');
 
 if (config.use_env_variable) {
   var sequelize = new Sequelize(process.env[config.use_env_variable], config);
@@ -34,7 +35,28 @@ Object.keys(db).forEach(modelName => {
   }
 });
 
+db.Pacientes.mayorAfectaciones()
+  .then(pacientes => {
+    let x = _.map(pacientes[0], paciente => {
+      return db.Egresados.findOne({
+          where: {
+            enfermedad: paciente.enfermedad
+          }
+        })
+        .then(egresado => {
+          if (!egresado) return null;
+          paciente.nombreEgresado = egresado.nombre;
+          paciente.logros = egresado.logros;
+          paciente.testimonio = egresado.testimonio;
+          return paciente;
+        });
+    });
+    return Promise.all(x)
+      .then(informacion => {
+        global.informacion = _.compact(informacion);
+      });
+    });
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
-
 module.exports = db;

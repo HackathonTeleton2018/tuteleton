@@ -38,5 +38,13 @@ module.exports = (sequelize, Sequelize) => {
         underscored: true
     });
 
+    Pacientes.mayorAfectaciones = () => {
+        return Pacientes.sequelize.query(
+            `select * from (select enfermedad, count(id) as total from pacientes group by enfermedad) as e
+            where e.total >= 10
+            order by e.total desc;`
+        );
+    };
+
     return Pacientes;
 };
