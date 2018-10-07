@@ -48,10 +48,7 @@ module.exports = (sequelize, Sequelize) => {
     }
 
     Consolidacion.contarDonativos = (params = {}) => {
-        return Consolidacion.sum('donativo', params)
-            .then(total => {
-                return total;
-            });
+        return Consolidacion.sum('donativo', params);
     };
 
     Consolidacion.contarDonantes = (params = {}) => {

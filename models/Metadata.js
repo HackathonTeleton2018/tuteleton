@@ -57,7 +57,7 @@ module.exports = (sequelize, Sequelize) => {
             allowNull: false
         }
     }, {
-        tableName: 'Metadata',
+        tableName: 'metadata',
         underscored: true
     });
 
@@ -66,6 +66,20 @@ module.exports = (sequelize, Sequelize) => {
             .then(total => {
                 return total;
             });
+    };
+
+    Metadata.contarMontoMinimoTotal = (params = {}) => {
+        return Metadata.sum('minimoNecesario', params);
+    };
+
+    Metadata.randomCrit = () => {
+        return Metadata.findOne({
+            attributes: ['crit', 'minimoNecesario', 'capacidadActual', 'costoAnualPromedio'],
+            order: [
+                sequelize.fn('random')
+            ],
+            raw: true
+        });
     };
 
     return Metadata;
